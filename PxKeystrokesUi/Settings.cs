@@ -17,10 +17,18 @@ namespace PxKeystrokesUi
         {
             this.settings = s;
             InitializeComponent();
+
+            bool b = AllowTransparency;
+            if (b) Console.WriteLine("true");
+            else Console.WriteLine("false");
+
             UpdateSliderValues();
             UpdateRadioButtons();
             UpdateCheckboxes();
             UpdateHistoryTimeoutDisplayLabel();
+
+            BackColor = Color.Lavender;
+            TransparencyKey = Color.Lavender;
         }
 
         private void linkLabel1_LinkClicked(object sender, LinkLabelLinkClickedEventArgs e)
