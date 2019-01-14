@@ -117,6 +117,864 @@
   <resheader name="writer">
     <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </resheader>
+  <assembly alias="System.Drawing" name="System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" />
+  <data name="button_backcolor.Location" type="System.Drawing.Point, System.Drawing">
+    <value>10, 45</value>
+  </data>
+  <data name="button_backcolor.Size" type="System.Drawing.Size, System.Drawing">
+    <value>165, 20</value>
+  </data>
+  <assembly alias="mscorlib" name="mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
+  <data name="button_backcolor.TabIndex" type="System.Int32, mscorlib">
+    <value>25</value>
+  </data>
+  <data name="button_backcolor.Text" xml:space="preserve">
+    <value>Background Color</value>
+  </data>
+  <data name="&gt;&gt;button_backcolor.Name" xml:space="preserve">
+    <value>button_backcolor</value>
+  </data>
+  <data name="&gt;&gt;button_backcolor.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;button_backcolor.Parent" xml:space="preserve">
+    <value>gb_background</value>
+  </data>
+  <data name="&gt;&gt;button_backcolor.ZOrder" xml:space="preserve">
+    <value>1</value>
+  </data>
+  <data name="button_textcolor.Location" type="System.Drawing.Point, System.Drawing">
+    <value>10, 70</value>
+  </data>
+  <data name="button_textcolor.Size" type="System.Drawing.Size, System.Drawing">
+    <value>165, 20</value>
+  </data>
+  <data name="button_textcolor.TabIndex" type="System.Int32, mscorlib">
+    <value>24</value>
+  </data>
+  <data name="button_textcolor.Text" xml:space="preserve">
+    <value>Color</value>
+  </data>
+  <data name="&gt;&gt;button_textcolor.Name" xml:space="preserve">
+    <value>button_textcolor</value>
+  </data>
+  <data name="&gt;&gt;button_textcolor.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;button_textcolor.Parent" xml:space="preserve">
+    <value>gb_text</value>
+  </data>
+  <data name="&gt;&gt;button_textcolor.ZOrder" xml:space="preserve">
+    <value>12</value>
+  </data>
+  <data name="slider_opacity.Location" type="System.Drawing.Point, System.Drawing">
+    <value>77, 17</value>
+  </data>
+  <assembly alias="System.Windows.Forms" name="System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
+  <data name="slider_opacity.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>0, 3, 0, 3</value>
+  </data>
+  <data name="slider_opacity.Size" type="System.Drawing.Size, System.Drawing">
+    <value>105, 45</value>
+  </data>
+  <data name="slider_opacity.TabIndex" type="System.Int32, mscorlib">
+    <value>17</value>
+  </data>
+  <data name="&gt;&gt;slider_opacity.Name" xml:space="preserve">
+    <value>slider_opacity</value>
+  </data>
+  <data name="&gt;&gt;slider_opacity.Type" xml:space="preserve">
+    <value>System.Windows.Forms.TrackBar, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;slider_opacity.Parent" xml:space="preserve">
+    <value>gb_background</value>
+  </data>
+  <data name="&gt;&gt;slider_opacity.ZOrder" xml:space="preserve">
+    <value>2</value>
+  </data>
+  <data name="label_opacity.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="label_opacity.Location" type="System.Drawing.Point, System.Drawing">
+    <value>12, 20</value>
+  </data>
+  <data name="label_opacity.Size" type="System.Drawing.Size, System.Drawing">
+    <value>50, 12</value>
+  </data>
+  <data name="label_opacity.TabIndex" type="System.Int32, mscorlib">
+    <value>16</value>
+  </data>
+  <data name="label_opacity.Text" xml:space="preserve">
+    <value>Opacity :</value>
+  </data>
+  <data name="&gt;&gt;label_opacity.Name" xml:space="preserve">
+    <value>label_opacity</value>
+  </data>
+  <data name="&gt;&gt;label_opacity.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;label_opacity.Parent" xml:space="preserve">
+    <value>gb_background</value>
+  </data>
+  <data name="&gt;&gt;label_opacity.ZOrder" xml:space="preserve">
+    <value>3</value>
+  </data>
+  <data name="label_fontsize.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="label_fontsize.Location" type="System.Drawing.Point, System.Drawing">
+    <value>35, 45</value>
+  </data>
+  <data name="label_fontsize.Size" type="System.Drawing.Size, System.Drawing">
+    <value>32, 12</value>
+  </data>
+  <data name="label_fontsize.TabIndex" type="System.Int32, mscorlib">
+    <value>15</value>
+  </data>
+  <data name="label_fontsize.Text" xml:space="preserve">
+    <value>Size :</value>
+  </data>
+  <data name="&gt;&gt;label_fontsize.Name" xml:space="preserve">
+    <value>label_fontsize</value>
+  </data>
+  <data name="&gt;&gt;label_fontsize.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;label_fontsize.Parent" xml:space="preserve">
+    <value>gb_text</value>
+  </data>
+  <data name="&gt;&gt;label_fontsize.ZOrder" xml:space="preserve">
+    <value>13</value>
+  </data>
+  <data name="rb_align_left.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="rb_align_left.Location" type="System.Drawing.Point, System.Drawing">
+    <value>10, 25</value>
+  </data>
+  <data name="rb_align_left.Size" type="System.Drawing.Size, System.Drawing">
+    <value>43, 16</value>
+  </data>
+  <data name="rb_align_left.TabIndex" type="System.Int32, mscorlib">
+    <value>26</value>
+  </data>
+  <data name="rb_align_left.Text" xml:space="preserve">
+    <value>Left</value>
+  </data>
+  <data name="&gt;&gt;rb_align_left.Name" xml:space="preserve">
+    <value>rb_align_left</value>
+  </data>
+  <data name="&gt;&gt;rb_align_left.Type" xml:space="preserve">
+    <value>System.Windows.Forms.RadioButton, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;rb_align_left.Parent" xml:space="preserve">
+    <value>gb_text_alignment</value>
+  </data>
+  <data name="&gt;&gt;rb_align_left.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="rb_align_center.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="rb_align_center.Location" type="System.Drawing.Point, System.Drawing">
+    <value>10, 45</value>
+  </data>
+  <data name="rb_align_center.Size" type="System.Drawing.Size, System.Drawing">
+    <value>57, 16</value>
+  </data>
+  <data name="rb_align_center.TabIndex" type="System.Int32, mscorlib">
+    <value>27</value>
+  </data>
+  <data name="rb_align_center.Text" xml:space="preserve">
+    <value>Center</value>
+  </data>
+  <data name="&gt;&gt;rb_align_center.Name" xml:space="preserve">
+    <value>rb_align_center</value>
+  </data>
+  <data name="&gt;&gt;rb_align_center.Type" xml:space="preserve">
+    <value>System.Windows.Forms.RadioButton, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;rb_align_center.Parent" xml:space="preserve">
+    <value>gb_text_alignment</value>
+  </data>
+  <data name="&gt;&gt;rb_align_center.ZOrder" xml:space="preserve">
+    <value>2</value>
+  </data>
+  <data name="rb_align_right.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="rb_align_right.Location" type="System.Drawing.Point, System.Drawing">
+    <value>10, 65</value>
+  </data>
+  <data name="rb_align_right.Size" type="System.Drawing.Size, System.Drawing">
+    <value>50, 16</value>
+  </data>
+  <data name="rb_align_right.TabIndex" type="System.Int32, mscorlib">
+    <value>28</value>
+  </data>
+  <data name="rb_align_right.Text" xml:space="preserve">
+    <value>Right</value>
+  </data>
+  <data name="&gt;&gt;rb_align_right.Name" xml:space="preserve">
+    <value>rb_align_right</value>
+  </data>
+  <data name="&gt;&gt;rb_align_right.Type" xml:space="preserve">
+    <value>System.Windows.Forms.RadioButton, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;rb_align_right.Parent" xml:space="preserve">
+    <value>gb_text_alignment</value>
+  </data>
+  <data name="&gt;&gt;rb_align_right.ZOrder" xml:space="preserve">
+    <value>1</value>
+  </data>
+  <data name="gb_text_alignment.Location" type="System.Drawing.Point, System.Drawing">
+    <value>10, 10</value>
+  </data>
+  <data name="gb_text_alignment.Size" type="System.Drawing.Size, System.Drawing">
+    <value>110, 90</value>
+  </data>
+  <data name="gb_text_alignment.TabIndex" type="System.Int32, mscorlib">
+    <value>29</value>
+  </data>
+  <data name="gb_text_alignment.Text" xml:space="preserve">
+    <value>Text Alignment</value>
+  </data>
+  <data name="&gt;&gt;gb_text_alignment.Name" xml:space="preserve">
+    <value>gb_text_alignment</value>
+  </data>
+  <data name="&gt;&gt;gb_text_alignment.Type" xml:space="preserve">
+    <value>System.Windows.Forms.GroupBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;gb_text_alignment.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;gb_text_alignment.ZOrder" xml:space="preserve">
+    <value>12</value>
+  </data>
+  <data name="rb_td_up.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="rb_td_up.Location" type="System.Drawing.Point, System.Drawing">
+    <value>10, 45</value>
+  </data>
+  <data name="rb_td_up.Size" type="System.Drawing.Size, System.Drawing">
+    <value>37, 16</value>
+  </data>
+  <data name="rb_td_up.TabIndex" type="System.Int32, mscorlib">
+    <value>1</value>
+  </data>
+  <data name="rb_td_up.Text" xml:space="preserve">
+    <value>Up</value>
+  </data>
+  <data name="&gt;&gt;rb_td_up.Name" xml:space="preserve">
+    <value>rb_td_up</value>
+  </data>
+  <data name="&gt;&gt;rb_td_up.Type" xml:space="preserve">
+    <value>System.Windows.Forms.RadioButton, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;rb_td_up.Parent" xml:space="preserve">
+    <value>gb_textdir</value>
+  </data>
+  <data name="&gt;&gt;rb_td_up.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="rb_td_down.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="rb_td_down.Location" type="System.Drawing.Point, System.Drawing">
+    <value>10, 25</value>
+  </data>
+  <data name="rb_td_down.Size" type="System.Drawing.Size, System.Drawing">
+    <value>51, 16</value>
+  </data>
+  <data name="rb_td_down.TabIndex" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="rb_td_down.Text" xml:space="preserve">
+    <value>Down</value>
+  </data>
+  <data name="&gt;&gt;rb_td_down.Name" xml:space="preserve">
+    <value>rb_td_down</value>
+  </data>
+  <data name="&gt;&gt;rb_td_down.Type" xml:space="preserve">
+    <value>System.Windows.Forms.RadioButton, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;rb_td_down.Parent" xml:space="preserve">
+    <value>gb_textdir</value>
+  </data>
+  <data name="&gt;&gt;rb_td_down.ZOrder" xml:space="preserve">
+    <value>1</value>
+  </data>
+  <data name="gb_textdir.Location" type="System.Drawing.Point, System.Drawing">
+    <value>10, 105</value>
+  </data>
+  <data name="gb_textdir.Size" type="System.Drawing.Size, System.Drawing">
+    <value>110, 70</value>
+  </data>
+  <data name="gb_textdir.TabIndex" type="System.Int32, mscorlib">
+    <value>30</value>
+  </data>
+  <data name="gb_textdir.Text" xml:space="preserve">
+    <value>Text Direction</value>
+  </data>
+  <data name="&gt;&gt;gb_textdir.Name" xml:space="preserve">
+    <value>gb_textdir</value>
+  </data>
+  <data name="&gt;&gt;gb_textdir.Type" xml:space="preserve">
+    <value>System.Windows.Forms.GroupBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;gb_textdir.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;gb_textdir.ZOrder" xml:space="preserve">
+    <value>11</value>
+  </data>
+  <data name="rb_style_slide.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="rb_style_slide.Location" type="System.Drawing.Point, System.Drawing">
+    <value>10, 44</value>
+  </data>
+  <data name="rb_style_slide.Size" type="System.Drawing.Size, System.Drawing">
+    <value>48, 16</value>
+  </data>
+  <data name="rb_style_slide.TabIndex" type="System.Int32, mscorlib">
+    <value>3</value>
+  </data>
+  <data name="rb_style_slide.Text" xml:space="preserve">
+    <value>Slide</value>
+  </data>
+  <data name="&gt;&gt;rb_style_slide.Name" xml:space="preserve">
+    <value>rb_style_slide</value>
+  </data>
+  <data name="&gt;&gt;rb_style_slide.Type" xml:space="preserve">
+    <value>System.Windows.Forms.RadioButton, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;rb_style_slide.Parent" xml:space="preserve">
+    <value>gb_style</value>
+  </data>
+  <data name="&gt;&gt;rb_style_slide.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="rb_style_noani.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="rb_style_noani.Location" type="System.Drawing.Point, System.Drawing">
+    <value>10, 24</value>
+  </data>
+  <data name="rb_style_noani.Size" type="System.Drawing.Size, System.Drawing">
+    <value>92, 16</value>
+  </data>
+  <data name="rb_style_noani.TabIndex" type="System.Int32, mscorlib">
+    <value>2</value>
+  </data>
+  <data name="rb_style_noani.Text" xml:space="preserve">
+    <value>No Animation</value>
+  </data>
+  <data name="&gt;&gt;rb_style_noani.Name" xml:space="preserve">
+    <value>rb_style_noani</value>
+  </data>
+  <data name="&gt;&gt;rb_style_noani.Type" xml:space="preserve">
+    <value>System.Windows.Forms.RadioButton, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;rb_style_noani.Parent" xml:space="preserve">
+    <value>gb_style</value>
+  </data>
+  <data name="&gt;&gt;rb_style_noani.ZOrder" xml:space="preserve">
+    <value>1</value>
+  </data>
+  <data name="gb_style.Location" type="System.Drawing.Point, System.Drawing">
+    <value>10, 184</value>
+  </data>
+  <data name="gb_style.Size" type="System.Drawing.Size, System.Drawing">
+    <value>110, 70</value>
+  </data>
+  <data name="gb_style.TabIndex" type="System.Int32, mscorlib">
+    <value>31</value>
+  </data>
+  <data name="gb_style.Text" xml:space="preserve">
+    <value>Style</value>
+  </data>
+  <data name="&gt;&gt;gb_style.Name" xml:space="preserve">
+    <value>gb_style</value>
+  </data>
+  <data name="&gt;&gt;gb_style.Type" xml:space="preserve">
+    <value>System.Windows.Forms.GroupBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;gb_style.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;gb_style.ZOrder" xml:space="preserve">
+    <value>10</value>
+  </data>
+  <data name="label_fontsize_display.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="label_fontsize_display.Location" type="System.Drawing.Point, System.Drawing">
+    <value>65, 45</value>
+  </data>
+  <data name="label_fontsize_display.RightToLeft" type="System.Windows.Forms.RightToLeft, System.Windows.Forms">
+    <value>Yes</value>
+  </data>
+  <data name="label_fontsize_display.Size" type="System.Drawing.Size, System.Drawing">
+    <value>17, 12</value>
+  </data>
+  <data name="label_fontsize_display.TabIndex" type="System.Int32, mscorlib">
+    <value>48</value>
+  </data>
+  <data name="label_fontsize_display.Text" xml:space="preserve">
+    <value>14</value>
+  </data>
+  <data name="&gt;&gt;label_fontsize_display.Name" xml:space="preserve">
+    <value>label_fontsize_display</value>
+  </data>
+  <data name="&gt;&gt;label_fontsize_display.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;label_fontsize_display.Parent" xml:space="preserve">
+    <value>gb_text</value>
+  </data>
+  <data name="&gt;&gt;label_fontsize_display.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="button_textfont.Location" type="System.Drawing.Point, System.Drawing">
+    <value>10, 18</value>
+  </data>
+  <data name="button_textfont.Size" type="System.Drawing.Size, System.Drawing">
+    <value>165, 20</value>
+  </data>
+  <data name="button_textfont.TabIndex" type="System.Int32, mscorlib">
+    <value>47</value>
+  </data>
+  <data name="button_textfont.Text" xml:space="preserve">
+    <value>Font</value>
+  </data>
+  <data name="&gt;&gt;button_textfont.Name" xml:space="preserve">
+    <value>button_textfont</value>
+  </data>
+  <data name="&gt;&gt;button_textfont.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;button_textfont.Parent" xml:space="preserve">
+    <value>gb_text</value>
+  </data>
+  <data name="&gt;&gt;button_textfont.ZOrder" xml:space="preserve">
+    <value>1</value>
+  </data>
+  <data name="cb_hideWindow.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="cb_hideWindow.Location" type="System.Drawing.Point, System.Drawing">
+    <value>10, 200</value>
+  </data>
+  <data name="cb_hideWindow.Size" type="System.Drawing.Size, System.Drawing">
+    <value>153, 16</value>
+  </data>
+  <data name="cb_hideWindow.TabIndex" type="System.Int32, mscorlib">
+    <value>46</value>
+  </data>
+  <data name="cb_hideWindow.Text" xml:space="preserve">
+    <value>Hide window when empty</value>
+  </data>
+  <data name="&gt;&gt;cb_hideWindow.Name" xml:space="preserve">
+    <value>cb_hideWindow</value>
+  </data>
+  <data name="&gt;&gt;cb_hideWindow.Type" xml:space="preserve">
+    <value>System.Windows.Forms.CheckBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;cb_hideWindow.Parent" xml:space="preserve">
+    <value>gb_text</value>
+  </data>
+  <data name="&gt;&gt;cb_hideWindow.ZOrder" xml:space="preserve">
+    <value>2</value>
+  </data>
+  <data name="cb_backspace.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="cb_backspace.Location" type="System.Drawing.Point, System.Drawing">
+    <value>10, 220</value>
+  </data>
+  <data name="cb_backspace.Size" type="System.Drawing.Size, System.Drawing">
+    <value>161, 16</value>
+  </data>
+  <data name="cb_backspace.TabIndex" type="System.Int32, mscorlib">
+    <value>45</value>
+  </data>
+  <data name="cb_backspace.Text" xml:space="preserve">
+    <value>Backspace can delete text</value>
+  </data>
+  <data name="&gt;&gt;cb_backspace.Name" xml:space="preserve">
+    <value>cb_backspace</value>
+  </data>
+  <data name="&gt;&gt;cb_backspace.Type" xml:space="preserve">
+    <value>System.Windows.Forms.CheckBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;cb_backspace.Parent" xml:space="preserve">
+    <value>gb_text</value>
+  </data>
+  <data name="&gt;&gt;cb_backspace.ZOrder" xml:space="preserve">
+    <value>3</value>
+  </data>
+  <data name="label_timeout_display.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="label_timeout_display.Location" type="System.Drawing.Point, System.Drawing">
+    <value>65, 175</value>
+  </data>
+  <data name="label_timeout_display.RightToLeft" type="System.Windows.Forms.RightToLeft, System.Windows.Forms">
+    <value>Yes</value>
+  </data>
+  <data name="label_timeout_display.Size" type="System.Drawing.Size, System.Drawing">
+    <value>17, 12</value>
+  </data>
+  <data name="label_timeout_display.TabIndex" type="System.Int32, mscorlib">
+    <value>44</value>
+  </data>
+  <data name="label_timeout_display.Text" xml:space="preserve">
+    <value>5s</value>
+  </data>
+  <data name="&gt;&gt;label_timeout_display.Name" xml:space="preserve">
+    <value>label_timeout_display</value>
+  </data>
+  <data name="&gt;&gt;label_timeout_display.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;label_timeout_display.Parent" xml:space="preserve">
+    <value>gb_text</value>
+  </data>
+  <data name="&gt;&gt;label_timeout_display.ZOrder" xml:space="preserve">
+    <value>4</value>
+  </data>
+  <data name="cb_enableHistoryTimeout.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="cb_enableHistoryTimeout.Location" type="System.Drawing.Point, System.Drawing">
+    <value>10, 149</value>
+  </data>
+  <data name="cb_enableHistoryTimeout.Size" type="System.Drawing.Size, System.Drawing">
+    <value>106, 16</value>
+  </data>
+  <data name="cb_enableHistoryTimeout.TabIndex" type="System.Int32, mscorlib">
+    <value>43</value>
+  </data>
+  <data name="cb_enableHistoryTimeout.Text" xml:space="preserve">
+    <value>History Timeout</value>
+  </data>
+  <data name="&gt;&gt;cb_enableHistoryTimeout.Name" xml:space="preserve">
+    <value>cb_enableHistoryTimeout</value>
+  </data>
+  <data name="&gt;&gt;cb_enableHistoryTimeout.Type" xml:space="preserve">
+    <value>System.Windows.Forms.CheckBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;cb_enableHistoryTimeout.Parent" xml:space="preserve">
+    <value>gb_text</value>
+  </data>
+  <data name="&gt;&gt;cb_enableHistoryTimeout.ZOrder" xml:space="preserve">
+    <value>5</value>
+  </data>
+  <data name="slider_history_timeout.Location" type="System.Drawing.Point, System.Drawing">
+    <value>78, 171</value>
+  </data>
+  <data name="slider_history_timeout.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>0, 3, 0, 3</value>
+  </data>
+  <data name="slider_history_timeout.Size" type="System.Drawing.Size, System.Drawing">
+    <value>105, 45</value>
+  </data>
+  <data name="slider_history_timeout.TabIndex" type="System.Int32, mscorlib">
+    <value>41</value>
+  </data>
+  <data name="&gt;&gt;slider_history_timeout.Name" xml:space="preserve">
+    <value>slider_history_timeout</value>
+  </data>
+  <data name="&gt;&gt;slider_history_timeout.Type" xml:space="preserve">
+    <value>System.Windows.Forms.TrackBar, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;slider_history_timeout.Parent" xml:space="preserve">
+    <value>gb_text</value>
+  </data>
+  <data name="&gt;&gt;slider_history_timeout.ZOrder" xml:space="preserve">
+    <value>6</value>
+  </data>
+  <data name="label_history_timeout.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="label_history_timeout.Location" type="System.Drawing.Point, System.Drawing">
+    <value>15, 175</value>
+  </data>
+  <data name="label_history_timeout.Size" type="System.Drawing.Size, System.Drawing">
+    <value>52, 12</value>
+  </data>
+  <data name="label_history_timeout.TabIndex" type="System.Int32, mscorlib">
+    <value>40</value>
+  </data>
+  <data name="label_history_timeout.Text" xml:space="preserve">
+    <value>Timeout :</value>
+  </data>
+  <data name="&gt;&gt;label_history_timeout.Name" xml:space="preserve">
+    <value>label_history_timeout</value>
+  </data>
+  <data name="&gt;&gt;label_history_timeout.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;label_history_timeout.Parent" xml:space="preserve">
+    <value>gb_text</value>
+  </data>
+  <data name="&gt;&gt;label_history_timeout.ZOrder" xml:space="preserve">
+    <value>7</value>
+  </data>
+  <data name="label_historycount.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="label_historycount.Location" type="System.Drawing.Point, System.Drawing">
+    <value>10, 125</value>
+  </data>
+  <data name="label_historycount.Size" type="System.Drawing.Size, System.Drawing">
+    <value>76, 12</value>
+  </data>
+  <data name="label_historycount.TabIndex" type="System.Int32, mscorlib">
+    <value>39</value>
+  </data>
+  <data name="label_historycount.Text" xml:space="preserve">
+    <value>History Count</value>
+  </data>
+  <data name="&gt;&gt;label_historycount.Name" xml:space="preserve">
+    <value>label_historycount</value>
+  </data>
+  <data name="&gt;&gt;label_historycount.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;label_historycount.Parent" xml:space="preserve">
+    <value>gb_text</value>
+  </data>
+  <data name="&gt;&gt;label_historycount.ZOrder" xml:space="preserve">
+    <value>8</value>
+  </data>
+  <data name="label_verticalDistance.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="label_verticalDistance.Location" type="System.Drawing.Point, System.Drawing">
+    <value>10, 100</value>
+  </data>
+  <data name="label_verticalDistance.Size" type="System.Drawing.Size, System.Drawing">
+    <value>94, 12</value>
+  </data>
+  <data name="label_verticalDistance.TabIndex" type="System.Int32, mscorlib">
+    <value>38</value>
+  </data>
+  <data name="label_verticalDistance.Text" xml:space="preserve">
+    <value>Vertical Distance</value>
+  </data>
+  <data name="&gt;&gt;label_verticalDistance.Name" xml:space="preserve">
+    <value>label_verticalDistance</value>
+  </data>
+  <data name="&gt;&gt;label_verticalDistance.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;label_verticalDistance.Parent" xml:space="preserve">
+    <value>gb_text</value>
+  </data>
+  <data name="&gt;&gt;label_verticalDistance.ZOrder" xml:space="preserve">
+    <value>9</value>
+  </data>
+  <data name="nud_historycount.Location" type="System.Drawing.Point, System.Drawing">
+    <value>110, 123</value>
+  </data>
+  <data name="nud_historycount.Size" type="System.Drawing.Size, System.Drawing">
+    <value>65, 19</value>
+  </data>
+  <data name="nud_historycount.TabIndex" type="System.Int32, mscorlib">
+    <value>37</value>
+  </data>
+  <data name="&gt;&gt;nud_historycount.Name" xml:space="preserve">
+    <value>nud_historycount</value>
+  </data>
+  <data name="&gt;&gt;nud_historycount.Type" xml:space="preserve">
+    <value>System.Windows.Forms.NumericUpDown, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;nud_historycount.Parent" xml:space="preserve">
+    <value>gb_text</value>
+  </data>
+  <data name="&gt;&gt;nud_historycount.ZOrder" xml:space="preserve">
+    <value>10</value>
+  </data>
+  <data name="nud_verticalDistance.Location" type="System.Drawing.Point, System.Drawing">
+    <value>110, 98</value>
+  </data>
+  <data name="nud_verticalDistance.Size" type="System.Drawing.Size, System.Drawing">
+    <value>65, 19</value>
+  </data>
+  <data name="nud_verticalDistance.TabIndex" type="System.Int32, mscorlib">
+    <value>36</value>
+  </data>
+  <data name="&gt;&gt;nud_verticalDistance.Name" xml:space="preserve">
+    <value>nud_verticalDistance</value>
+  </data>
+  <data name="&gt;&gt;nud_verticalDistance.Type" xml:space="preserve">
+    <value>System.Windows.Forms.NumericUpDown, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;nud_verticalDistance.Parent" xml:space="preserve">
+    <value>gb_text</value>
+  </data>
+  <data name="&gt;&gt;nud_verticalDistance.ZOrder" xml:space="preserve">
+    <value>11</value>
+  </data>
+  <data name="slider_fontsize.Location" type="System.Drawing.Point, System.Drawing">
+    <value>78, 42</value>
+  </data>
+  <data name="slider_fontsize.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>0, 3, 0, 3</value>
+  </data>
+  <data name="slider_fontsize.Size" type="System.Drawing.Size, System.Drawing">
+    <value>105, 45</value>
+  </data>
+  <data name="slider_fontsize.TabIndex" type="System.Int32, mscorlib">
+    <value>14</value>
+  </data>
+  <data name="&gt;&gt;slider_fontsize.Name" xml:space="preserve">
+    <value>slider_fontsize</value>
+  </data>
+  <data name="&gt;&gt;slider_fontsize.Type" xml:space="preserve">
+    <value>System.Windows.Forms.TrackBar, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;slider_fontsize.Parent" xml:space="preserve">
+    <value>gb_text</value>
+  </data>
+  <data name="&gt;&gt;slider_fontsize.ZOrder" xml:space="preserve">
+    <value>14</value>
+  </data>
+  <data name="gb_text.Location" type="System.Drawing.Point, System.Drawing">
+    <value>130, 10</value>
+  </data>
+  <data name="gb_text.Size" type="System.Drawing.Size, System.Drawing">
+    <value>185, 245</value>
+  </data>
+  <data name="gb_text.TabIndex" type="System.Int32, mscorlib">
+    <value>32</value>
+  </data>
+  <data name="gb_text.Text" xml:space="preserve">
+    <value>Text</value>
+  </data>
+  <data name="&gt;&gt;gb_text.Name" xml:space="preserve">
+    <value>gb_text</value>
+  </data>
+  <data name="&gt;&gt;gb_text.Type" xml:space="preserve">
+    <value>System.Windows.Forms.GroupBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;gb_text.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;gb_text.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="label_opacity_display.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="label_opacity_display.Location" type="System.Drawing.Point, System.Drawing">
+    <value>60, 20</value>
+  </data>
+  <data name="label_opacity_display.RightToLeft" type="System.Windows.Forms.RightToLeft, System.Windows.Forms">
+    <value>Yes</value>
+  </data>
+  <data name="label_opacity_display.Size" type="System.Drawing.Size, System.Drawing">
+    <value>19, 12</value>
+  </data>
+  <data name="label_opacity_display.TabIndex" type="System.Int32, mscorlib">
+    <value>50</value>
+  </data>
+  <data name="label_opacity_display.Text" xml:space="preserve">
+    <value>0.8</value>
+  </data>
+  <data name="&gt;&gt;label_opacity_display.Name" xml:space="preserve">
+    <value>label_opacity_display</value>
+  </data>
+  <data name="&gt;&gt;label_opacity_display.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;label_opacity_display.Parent" xml:space="preserve">
+    <value>gb_background</value>
+  </data>
+  <data name="&gt;&gt;label_opacity_display.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="gb_background.Location" type="System.Drawing.Point, System.Drawing">
+    <value>325, 140</value>
+  </data>
+  <data name="gb_background.Size" type="System.Drawing.Size, System.Drawing">
+    <value>185, 75</value>
+  </data>
+  <data name="gb_background.TabIndex" type="System.Int32, mscorlib">
+    <value>33</value>
+  </data>
+  <data name="gb_background.Text" xml:space="preserve">
+    <value>Background</value>
+  </data>
+  <data name="&gt;&gt;gb_background.Name" xml:space="preserve">
+    <value>gb_background</value>
+  </data>
+  <data name="&gt;&gt;gb_background.Type" xml:space="preserve">
+    <value>System.Windows.Forms.GroupBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;gb_background.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;gb_background.ZOrder" xml:space="preserve">
+    <value>9</value>
+  </data>
+  <data name="label1.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="label1.Location" type="System.Drawing.Point, System.Drawing">
+    <value>394, 225</value>
+  </data>
+  <data name="label1.Size" type="System.Drawing.Size, System.Drawing">
+    <value>301, 12</value>
+  </data>
+  <data name="label1.TabIndex" type="System.Int32, mscorlib">
+    <value>34</value>
+  </data>
+  <data name="label1.Text" xml:space="preserve">
+    <value>Press and hold Ctrl + Shift + Alt to reveal setting buttons</value>
+  </data>
+  <data name="&gt;&gt;label1.Name" xml:space="preserve">
+    <value>label1</value>
+  </data>
+  <data name="&gt;&gt;label1.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;label1.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;label1.ZOrder" xml:space="preserve">
+    <value>8</value>
+  </data>
+  <data name="linkLabel1.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="linkLabel1.Location" type="System.Drawing.Point, System.Drawing">
+    <value>441, 243</value>
+  </data>
+  <data name="linkLabel1.Size" type="System.Drawing.Size, System.Drawing">
+    <value>254, 12</value>
+  </data>
+  <data name="linkLabel1.TabIndex" type="System.Int32, mscorlib">
+    <value>35</value>
+  </data>
+  <data name="linkLabel1.Text" xml:space="preserve">
+    <value>Issues? Want to have a look at the source code?</value>
+  </data>
+  <data name="&gt;&gt;linkLabel1.Name" xml:space="preserve">
+    <value>linkLabel1</value>
+  </data>
+  <data name="&gt;&gt;linkLabel1.Type" xml:space="preserve">
+    <value>System.Windows.Forms.LinkLabel, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;linkLabel1.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;linkLabel1.ZOrder" xml:space="preserve">
+    <value>7</value>
+  </data>
   <metadata name="picker_textcolor.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
     <value>280, 17</value>
   </metadata>
@@ -126,10 +984,705 @@
   <metadata name="fontDialog_text.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
     <value>166, 16</value>
   </metadata>
+  <data name="bn_reset_position.Location" type="System.Drawing.Point, System.Drawing">
+    <value>520, 185</value>
+  </data>
+  <data name="bn_reset_position.Size" type="System.Drawing.Size, System.Drawing">
+    <value>99, 20</value>
+  </data>
+  <data name="bn_reset_position.TabIndex" type="System.Int32, mscorlib">
+    <value>36</value>
+  </data>
+  <data name="bn_reset_position.Text" xml:space="preserve">
+    <value>Reset Position</value>
+  </data>
+  <data name="&gt;&gt;bn_reset_position.Name" xml:space="preserve">
+    <value>bn_reset_position</value>
+  </data>
+  <data name="&gt;&gt;bn_reset_position.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;bn_reset_position.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;bn_reset_position.ZOrder" xml:space="preserve">
+    <value>6</value>
+  </data>
+  <data name="bn_reset_all.Location" type="System.Drawing.Point, System.Drawing">
+    <value>625, 185</value>
+  </data>
+  <data name="bn_reset_all.Size" type="System.Drawing.Size, System.Drawing">
+    <value>77, 20</value>
+  </data>
+  <data name="bn_reset_all.TabIndex" type="System.Int32, mscorlib">
+    <value>37</value>
+  </data>
+  <data name="bn_reset_all.Text" xml:space="preserve">
+    <value>Reset All</value>
+  </data>
+  <data name="&gt;&gt;bn_reset_all.Name" xml:space="preserve">
+    <value>bn_reset_all</value>
+  </data>
+  <data name="&gt;&gt;bn_reset_all.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;bn_reset_all.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;bn_reset_all.ZOrder" xml:space="preserve">
+    <value>5</value>
+  </data>
+  <data name="label_ci_opacity.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="label_ci_opacity.Location" type="System.Drawing.Point, System.Drawing">
+    <value>12, 45</value>
+  </data>
+  <data name="label_ci_opacity.Size" type="System.Drawing.Size, System.Drawing">
+    <value>50, 12</value>
+  </data>
+  <data name="label_ci_opacity.TabIndex" type="System.Int32, mscorlib">
+    <value>51</value>
+  </data>
+  <data name="label_ci_opacity.Text" xml:space="preserve">
+    <value>Opacity :</value>
+  </data>
+  <data name="&gt;&gt;label_ci_opacity.Name" xml:space="preserve">
+    <value>label_ci_opacity</value>
+  </data>
+  <data name="&gt;&gt;label_ci_opacity.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;label_ci_opacity.Parent" xml:space="preserve">
+    <value>gb_mouse</value>
+  </data>
+  <data name="&gt;&gt;label_ci_opacity.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="label_ci_size_display.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="label_ci_size_display.Location" type="System.Drawing.Point, System.Drawing">
+    <value>65, 70</value>
+  </data>
+  <data name="label_ci_size_display.RightToLeft" type="System.Windows.Forms.RightToLeft, System.Windows.Forms">
+    <value>Yes</value>
+  </data>
+  <data name="label_ci_size_display.Size" type="System.Drawing.Size, System.Drawing">
+    <value>17, 12</value>
+  </data>
+  <data name="label_ci_size_display.TabIndex" type="System.Int32, mscorlib">
+    <value>50</value>
+  </data>
+  <data name="label_ci_size_display.Text" xml:space="preserve">
+    <value>55</value>
+  </data>
+  <data name="&gt;&gt;label_ci_size_display.Name" xml:space="preserve">
+    <value>label_ci_size_display</value>
+  </data>
+  <data name="&gt;&gt;label_ci_size_display.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;label_ci_size_display.Parent" xml:space="preserve">
+    <value>gb_mouse</value>
+  </data>
+  <data name="&gt;&gt;label_ci_size_display.ZOrder" xml:space="preserve">
+    <value>1</value>
+  </data>
+  <data name="label_ci_opacity_display.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="label_ci_opacity_display.Location" type="System.Drawing.Point, System.Drawing">
+    <value>65, 45</value>
+  </data>
+  <data name="label_ci_opacity_display.RightToLeft" type="System.Windows.Forms.RightToLeft, System.Windows.Forms">
+    <value>Yes</value>
+  </data>
+  <data name="label_ci_opacity_display.Size" type="System.Drawing.Size, System.Drawing">
+    <value>19, 12</value>
+  </data>
+  <data name="label_ci_opacity_display.TabIndex" type="System.Int32, mscorlib">
+    <value>49</value>
+  </data>
+  <data name="label_ci_opacity_display.Text" xml:space="preserve">
+    <value>0.8</value>
+  </data>
+  <data name="&gt;&gt;label_ci_opacity_display.Name" xml:space="preserve">
+    <value>label_ci_opacity_display</value>
+  </data>
+  <data name="&gt;&gt;label_ci_opacity_display.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;label_ci_opacity_display.Parent" xml:space="preserve">
+    <value>gb_mouse</value>
+  </data>
+  <data name="&gt;&gt;label_ci_opacity_display.ZOrder" xml:space="preserve">
+    <value>2</value>
+  </data>
+  <data name="button_ci_color.Location" type="System.Drawing.Point, System.Drawing">
+    <value>10, 95</value>
+  </data>
+  <data name="button_ci_color.Size" type="System.Drawing.Size, System.Drawing">
+    <value>165, 20</value>
+  </data>
+  <data name="button_ci_color.TabIndex" type="System.Int32, mscorlib">
+    <value>26</value>
+  </data>
+  <data name="button_ci_color.Text" xml:space="preserve">
+    <value>Color</value>
+  </data>
+  <data name="&gt;&gt;button_ci_color.Name" xml:space="preserve">
+    <value>button_ci_color</value>
+  </data>
+  <data name="&gt;&gt;button_ci_color.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;button_ci_color.Parent" xml:space="preserve">
+    <value>gb_mouse</value>
+  </data>
+  <data name="&gt;&gt;button_ci_color.ZOrder" xml:space="preserve">
+    <value>3</value>
+  </data>
+  <data name="label_ci_size.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="label_ci_size.Location" type="System.Drawing.Point, System.Drawing">
+    <value>35, 70</value>
+  </data>
+  <data name="label_ci_size.Size" type="System.Drawing.Size, System.Drawing">
+    <value>32, 12</value>
+  </data>
+  <data name="label_ci_size.TabIndex" type="System.Int32, mscorlib">
+    <value>42</value>
+  </data>
+  <data name="label_ci_size.Text" xml:space="preserve">
+    <value>Size :</value>
+  </data>
+  <data name="&gt;&gt;label_ci_size.Name" xml:space="preserve">
+    <value>label_ci_size</value>
+  </data>
+  <data name="&gt;&gt;label_ci_size.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;label_ci_size.Parent" xml:space="preserve">
+    <value>gb_mouse</value>
+  </data>
+  <data name="&gt;&gt;label_ci_size.ZOrder" xml:space="preserve">
+    <value>4</value>
+  </data>
+  <data name="slider_ci_size.Location" type="System.Drawing.Point, System.Drawing">
+    <value>78, 67</value>
+  </data>
+  <data name="slider_ci_size.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>0, 3, 0, 3</value>
+  </data>
+  <data name="slider_ci_size.Size" type="System.Drawing.Size, System.Drawing">
+    <value>105, 45</value>
+  </data>
+  <data name="slider_ci_size.TabIndex" type="System.Int32, mscorlib">
+    <value>41</value>
+  </data>
+  <data name="&gt;&gt;slider_ci_size.Name" xml:space="preserve">
+    <value>slider_ci_size</value>
+  </data>
+  <data name="&gt;&gt;slider_ci_size.Type" xml:space="preserve">
+    <value>System.Windows.Forms.TrackBar, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;slider_ci_size.Parent" xml:space="preserve">
+    <value>gb_mouse</value>
+  </data>
+  <data name="&gt;&gt;slider_ci_size.ZOrder" xml:space="preserve">
+    <value>5</value>
+  </data>
+  <data name="slider_ci_opacity.Location" type="System.Drawing.Point, System.Drawing">
+    <value>78, 42</value>
+  </data>
+  <data name="slider_ci_opacity.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>0, 3, 0, 3</value>
+  </data>
+  <data name="slider_ci_opacity.Size" type="System.Drawing.Size, System.Drawing">
+    <value>105, 45</value>
+  </data>
+  <data name="slider_ci_opacity.TabIndex" type="System.Int32, mscorlib">
+    <value>40</value>
+  </data>
+  <data name="&gt;&gt;slider_ci_opacity.Name" xml:space="preserve">
+    <value>slider_ci_opacity</value>
+  </data>
+  <data name="&gt;&gt;slider_ci_opacity.Type" xml:space="preserve">
+    <value>System.Windows.Forms.TrackBar, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;slider_ci_opacity.Parent" xml:space="preserve">
+    <value>gb_mouse</value>
+  </data>
+  <data name="&gt;&gt;slider_ci_opacity.ZOrder" xml:space="preserve">
+    <value>6</value>
+  </data>
+  <data name="cb_cursorindicator.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="cb_cursorindicator.Location" type="System.Drawing.Point, System.Drawing">
+    <value>10, 20</value>
+  </data>
+  <data name="cb_cursorindicator.Size" type="System.Drawing.Size, System.Drawing">
+    <value>144, 16</value>
+  </data>
+  <data name="cb_cursorindicator.TabIndex" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="cb_cursorindicator.Text" xml:space="preserve">
+    <value>Indicate cursor position</value>
+  </data>
+  <data name="&gt;&gt;cb_cursorindicator.Name" xml:space="preserve">
+    <value>cb_cursorindicator</value>
+  </data>
+  <data name="&gt;&gt;cb_cursorindicator.Type" xml:space="preserve">
+    <value>System.Windows.Forms.CheckBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;cb_cursorindicator.Parent" xml:space="preserve">
+    <value>gb_mouse</value>
+  </data>
+  <data name="&gt;&gt;cb_cursorindicator.ZOrder" xml:space="preserve">
+    <value>7</value>
+  </data>
+  <data name="gb_mouse.Location" type="System.Drawing.Point, System.Drawing">
+    <value>325, 10</value>
+  </data>
+  <data name="gb_mouse.Size" type="System.Drawing.Size, System.Drawing">
+    <value>185, 125</value>
+  </data>
+  <data name="gb_mouse.TabIndex" type="System.Int32, mscorlib">
+    <value>38</value>
+  </data>
+  <data name="gb_mouse.Text" xml:space="preserve">
+    <value>Mouse</value>
+  </data>
+  <data name="&gt;&gt;gb_mouse.Name" xml:space="preserve">
+    <value>gb_mouse</value>
+  </data>
+  <data name="&gt;&gt;gb_mouse.Type" xml:space="preserve">
+    <value>System.Windows.Forms.GroupBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;gb_mouse.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;gb_mouse.ZOrder" xml:space="preserve">
+    <value>4</value>
+  </data>
   <metadata name="picker_ci_color.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
     <value>538, 17</value>
   </metadata>
-  <assembly alias="System.Drawing" name="System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" />
+  <data name="label_bi_angle_display.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="label_bi_angle_display.Location" type="System.Drawing.Point, System.Drawing">
+    <value>65, 115</value>
+  </data>
+  <data name="label_bi_angle_display.RightToLeft" type="System.Windows.Forms.RightToLeft, System.Windows.Forms">
+    <value>Yes</value>
+  </data>
+  <data name="label_bi_angle_display.Size" type="System.Drawing.Size, System.Drawing">
+    <value>17, 12</value>
+  </data>
+  <data name="label_bi_angle_display.TabIndex" type="System.Int32, mscorlib">
+    <value>53</value>
+  </data>
+  <data name="label_bi_angle_display.Text" xml:space="preserve">
+    <value>55</value>
+  </data>
+  <data name="&gt;&gt;label_bi_angle_display.Name" xml:space="preserve">
+    <value>label_bi_angle_display</value>
+  </data>
+  <data name="&gt;&gt;label_bi_angle_display.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;label_bi_angle_display.Parent" xml:space="preserve">
+    <value>gb_buttonindicator</value>
+  </data>
+  <data name="&gt;&gt;label_bi_angle_display.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="label_bi_distance_display.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="label_bi_distance_display.Location" type="System.Drawing.Point, System.Drawing">
+    <value>65, 90</value>
+  </data>
+  <data name="label_bi_distance_display.RightToLeft" type="System.Windows.Forms.RightToLeft, System.Windows.Forms">
+    <value>Yes</value>
+  </data>
+  <data name="label_bi_distance_display.Size" type="System.Drawing.Size, System.Drawing">
+    <value>17, 12</value>
+  </data>
+  <data name="label_bi_distance_display.TabIndex" type="System.Int32, mscorlib">
+    <value>52</value>
+  </data>
+  <data name="label_bi_distance_display.Text" xml:space="preserve">
+    <value>55</value>
+  </data>
+  <data name="&gt;&gt;label_bi_distance_display.Name" xml:space="preserve">
+    <value>label_bi_distance_display</value>
+  </data>
+  <data name="&gt;&gt;label_bi_distance_display.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;label_bi_distance_display.Parent" xml:space="preserve">
+    <value>gb_buttonindicator</value>
+  </data>
+  <data name="&gt;&gt;label_bi_distance_display.ZOrder" xml:space="preserve">
+    <value>1</value>
+  </data>
+  <data name="label_bi_size_display.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="label_bi_size_display.Location" type="System.Drawing.Point, System.Drawing">
+    <value>65, 65</value>
+  </data>
+  <data name="label_bi_size_display.RightToLeft" type="System.Windows.Forms.RightToLeft, System.Windows.Forms">
+    <value>Yes</value>
+  </data>
+  <data name="label_bi_size_display.Size" type="System.Drawing.Size, System.Drawing">
+    <value>17, 12</value>
+  </data>
+  <data name="label_bi_size_display.TabIndex" type="System.Int32, mscorlib">
+    <value>51</value>
+  </data>
+  <data name="label_bi_size_display.Text" xml:space="preserve">
+    <value>55</value>
+  </data>
+  <data name="&gt;&gt;label_bi_size_display.Name" xml:space="preserve">
+    <value>label_bi_size_display</value>
+  </data>
+  <data name="&gt;&gt;label_bi_size_display.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;label_bi_size_display.Parent" xml:space="preserve">
+    <value>gb_buttonindicator</value>
+  </data>
+  <data name="&gt;&gt;label_bi_size_display.ZOrder" xml:space="preserve">
+    <value>2</value>
+  </data>
+  <data name="cb_bi_history.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="cb_bi_history.Enabled" type="System.Boolean, mscorlib">
+    <value>False</value>
+  </data>
+  <data name="cb_bi_history.Location" type="System.Drawing.Point, System.Drawing">
+    <value>10, 140</value>
+  </data>
+  <data name="cb_bi_history.Size" type="System.Drawing.Size, System.Drawing">
+    <value>102, 16</value>
+  </data>
+  <data name="cb_bi_history.TabIndex" type="System.Int32, mscorlib">
+    <value>46</value>
+  </data>
+  <data name="cb_bi_history.Text" xml:space="preserve">
+    <value>Add To History</value>
+  </data>
+  <data name="&gt;&gt;cb_bi_history.Name" xml:space="preserve">
+    <value>cb_bi_history</value>
+  </data>
+  <data name="&gt;&gt;cb_bi_history.Type" xml:space="preserve">
+    <value>System.Windows.Forms.CheckBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;cb_bi_history.Parent" xml:space="preserve">
+    <value>gb_buttonindicator</value>
+  </data>
+  <data name="&gt;&gt;cb_bi_history.ZOrder" xml:space="preserve">
+    <value>3</value>
+  </data>
+  <data name="label_bi_size.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="label_bi_size.Location" type="System.Drawing.Point, System.Drawing">
+    <value>35, 65</value>
+  </data>
+  <data name="label_bi_size.Size" type="System.Drawing.Size, System.Drawing">
+    <value>32, 12</value>
+  </data>
+  <data name="label_bi_size.TabIndex" type="System.Int32, mscorlib">
+    <value>44</value>
+  </data>
+  <data name="label_bi_size.Text" xml:space="preserve">
+    <value>Size :</value>
+  </data>
+  <data name="&gt;&gt;label_bi_size.Name" xml:space="preserve">
+    <value>label_bi_size</value>
+  </data>
+  <data name="&gt;&gt;label_bi_size.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;label_bi_size.Parent" xml:space="preserve">
+    <value>gb_buttonindicator</value>
+  </data>
+  <data name="&gt;&gt;label_bi_size.ZOrder" xml:space="preserve">
+    <value>4</value>
+  </data>
+  <data name="rb_bi_icon.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="rb_bi_icon.Location" type="System.Drawing.Point, System.Drawing">
+    <value>10, 40</value>
+  </data>
+  <data name="rb_bi_icon.Size" type="System.Drawing.Size, System.Drawing">
+    <value>75, 16</value>
+  </data>
+  <data name="rb_bi_icon.TabIndex" type="System.Int32, mscorlib">
+    <value>43</value>
+  </data>
+  <data name="rb_bi_icon.Text" xml:space="preserve">
+    <value>Show Icon</value>
+  </data>
+  <data name="&gt;&gt;rb_bi_icon.Name" xml:space="preserve">
+    <value>rb_bi_icon</value>
+  </data>
+  <data name="&gt;&gt;rb_bi_icon.Type" xml:space="preserve">
+    <value>System.Windows.Forms.RadioButton, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;rb_bi_icon.Parent" xml:space="preserve">
+    <value>gb_buttonindicator</value>
+  </data>
+  <data name="&gt;&gt;rb_bi_icon.ZOrder" xml:space="preserve">
+    <value>5</value>
+  </data>
+  <data name="rb_bi_disable.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="rb_bi_disable.Location" type="System.Drawing.Point, System.Drawing">
+    <value>10, 20</value>
+  </data>
+  <data name="rb_bi_disable.Size" type="System.Drawing.Size, System.Drawing">
+    <value>135, 16</value>
+  </data>
+  <data name="rb_bi_disable.TabIndex" type="System.Int32, mscorlib">
+    <value>2</value>
+  </data>
+  <data name="rb_bi_disable.Text" xml:space="preserve">
+    <value>No not indicate clicks</value>
+  </data>
+  <data name="&gt;&gt;rb_bi_disable.Name" xml:space="preserve">
+    <value>rb_bi_disable</value>
+  </data>
+  <data name="&gt;&gt;rb_bi_disable.Type" xml:space="preserve">
+    <value>System.Windows.Forms.RadioButton, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;rb_bi_disable.Parent" xml:space="preserve">
+    <value>gb_buttonindicator</value>
+  </data>
+  <data name="&gt;&gt;rb_bi_disable.ZOrder" xml:space="preserve">
+    <value>6</value>
+  </data>
+  <data name="label_bi_angle.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="label_bi_angle.Location" type="System.Drawing.Point, System.Drawing">
+    <value>10, 115</value>
+  </data>
+  <data name="label_bi_angle.Size" type="System.Drawing.Size, System.Drawing">
+    <value>57, 12</value>
+  </data>
+  <data name="label_bi_angle.TabIndex" type="System.Int32, mscorlib">
+    <value>42</value>
+  </data>
+  <data name="label_bi_angle.Text" xml:space="preserve">
+    <value>Direction :</value>
+  </data>
+  <data name="&gt;&gt;label_bi_angle.Name" xml:space="preserve">
+    <value>label_bi_angle</value>
+  </data>
+  <data name="&gt;&gt;label_bi_angle.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;label_bi_angle.Parent" xml:space="preserve">
+    <value>gb_buttonindicator</value>
+  </data>
+  <data name="&gt;&gt;label_bi_angle.ZOrder" xml:space="preserve">
+    <value>7</value>
+  </data>
+  <data name="slider_bi_angle.Location" type="System.Drawing.Point, System.Drawing">
+    <value>78, 112</value>
+  </data>
+  <data name="slider_bi_angle.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>0, 3, 0, 3</value>
+  </data>
+  <data name="slider_bi_angle.Size" type="System.Drawing.Size, System.Drawing">
+    <value>105, 45</value>
+  </data>
+  <data name="slider_bi_angle.TabIndex" type="System.Int32, mscorlib">
+    <value>41</value>
+  </data>
+  <data name="&gt;&gt;slider_bi_angle.Name" xml:space="preserve">
+    <value>slider_bi_angle</value>
+  </data>
+  <data name="&gt;&gt;slider_bi_angle.Type" xml:space="preserve">
+    <value>System.Windows.Forms.TrackBar, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;slider_bi_angle.Parent" xml:space="preserve">
+    <value>gb_buttonindicator</value>
+  </data>
+  <data name="&gt;&gt;slider_bi_angle.ZOrder" xml:space="preserve">
+    <value>8</value>
+  </data>
+  <data name="slider_bi_distance.Location" type="System.Drawing.Point, System.Drawing">
+    <value>78, 87</value>
+  </data>
+  <data name="slider_bi_distance.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>0, 3, 0, 3</value>
+  </data>
+  <data name="slider_bi_distance.Size" type="System.Drawing.Size, System.Drawing">
+    <value>105, 45</value>
+  </data>
+  <data name="slider_bi_distance.TabIndex" type="System.Int32, mscorlib">
+    <value>40</value>
+  </data>
+  <data name="&gt;&gt;slider_bi_distance.Name" xml:space="preserve">
+    <value>slider_bi_distance</value>
+  </data>
+  <data name="&gt;&gt;slider_bi_distance.Type" xml:space="preserve">
+    <value>System.Windows.Forms.TrackBar, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;slider_bi_distance.Parent" xml:space="preserve">
+    <value>gb_buttonindicator</value>
+  </data>
+  <data name="&gt;&gt;slider_bi_distance.ZOrder" xml:space="preserve">
+    <value>9</value>
+  </data>
+  <data name="label_bi_distance.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="label_bi_distance.Location" type="System.Drawing.Point, System.Drawing">
+    <value>11, 90</value>
+  </data>
+  <data name="label_bi_distance.Size" type="System.Drawing.Size, System.Drawing">
+    <value>56, 12</value>
+  </data>
+  <data name="label_bi_distance.TabIndex" type="System.Int32, mscorlib">
+    <value>1</value>
+  </data>
+  <data name="label_bi_distance.Text" xml:space="preserve">
+    <value>Distance :</value>
+  </data>
+  <data name="&gt;&gt;label_bi_distance.Name" xml:space="preserve">
+    <value>label_bi_distance</value>
+  </data>
+  <data name="&gt;&gt;label_bi_distance.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;label_bi_distance.Parent" xml:space="preserve">
+    <value>gb_buttonindicator</value>
+  </data>
+  <data name="&gt;&gt;label_bi_distance.ZOrder" xml:space="preserve">
+    <value>10</value>
+  </data>
+  <data name="slider_bi_size.Location" type="System.Drawing.Point, System.Drawing">
+    <value>78, 62</value>
+  </data>
+  <data name="slider_bi_size.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>0, 3, 0, 3</value>
+  </data>
+  <data name="slider_bi_size.Size" type="System.Drawing.Size, System.Drawing">
+    <value>105, 45</value>
+  </data>
+  <data name="slider_bi_size.TabIndex" type="System.Int32, mscorlib">
+    <value>45</value>
+  </data>
+  <data name="&gt;&gt;slider_bi_size.Name" xml:space="preserve">
+    <value>slider_bi_size</value>
+  </data>
+  <data name="&gt;&gt;slider_bi_size.Type" xml:space="preserve">
+    <value>System.Windows.Forms.TrackBar, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;slider_bi_size.Parent" xml:space="preserve">
+    <value>gb_buttonindicator</value>
+  </data>
+  <data name="&gt;&gt;slider_bi_size.ZOrder" xml:space="preserve">
+    <value>11</value>
+  </data>
+  <data name="gb_buttonindicator.Location" type="System.Drawing.Point, System.Drawing">
+    <value>520, 10</value>
+  </data>
+  <data name="gb_buttonindicator.Size" type="System.Drawing.Size, System.Drawing">
+    <value>185, 165</value>
+  </data>
+  <data name="gb_buttonindicator.TabIndex" type="System.Int32, mscorlib">
+    <value>43</value>
+  </data>
+  <data name="gb_buttonindicator.Text" xml:space="preserve">
+    <value>Mouse Clicks</value>
+  </data>
+  <data name="&gt;&gt;gb_buttonindicator.Name" xml:space="preserve">
+    <value>gb_buttonindicator</value>
+  </data>
+  <data name="&gt;&gt;gb_buttonindicator.Type" xml:space="preserve">
+    <value>System.Windows.Forms.GroupBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;gb_buttonindicator.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;gb_buttonindicator.ZOrder" xml:space="preserve">
+    <value>3</value>
+  </data>
+  <data name="button_exit.Location" type="System.Drawing.Point, System.Drawing">
+    <value>335, 265</value>
+  </data>
+  <data name="button_exit.Size" type="System.Drawing.Size, System.Drawing">
+    <value>165, 20</value>
+  </data>
+  <data name="button_exit.TabIndex" type="System.Int32, mscorlib">
+    <value>44</value>
+  </data>
+  <data name="button_exit.Text" xml:space="preserve">
+    <value>Exit Program</value>
+  </data>
+  <data name="&gt;&gt;button_exit.Name" xml:space="preserve">
+    <value>button_exit</value>
+  </data>
+  <data name="&gt;&gt;button_exit.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;button_exit.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;button_exit.ZOrder" xml:space="preserve">
+    <value>2</value>
+  </data>
+  <data name="button_close.Location" type="System.Drawing.Point, System.Drawing">
+    <value>520, 265</value>
+  </data>
+  <data name="button_close.Size" type="System.Drawing.Size, System.Drawing">
+    <value>182, 20</value>
+  </data>
+  <data name="button_close.TabIndex" type="System.Int32, mscorlib">
+    <value>45</value>
+  </data>
+  <data name="button_close.Text" xml:space="preserve">
+    <value>Close</value>
+  </data>
+  <data name="&gt;&gt;button_close.Name" xml:space="preserve">
+    <value>button_close</value>
+  </data>
+  <data name="&gt;&gt;button_close.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;button_close.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;button_close.ZOrder" xml:space="preserve">
+    <value>1</value>
+  </data>
+  <metadata name="$this.Language" type="System.Globalization.CultureInfo, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>ja-JP</value>
+  </metadata>
+  <metadata name="$this.Localizable" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>True</value>
+  </metadata>
+  <data name="$this.AutoScaleDimensions" type="System.Drawing.SizeF, System.Drawing">
+    <value>6, 12</value>
+  </data>
+  <data name="$this.ClientSize" type="System.Drawing.Size, System.Drawing">
+    <value>714, 297</value>
+  </data>
   <data name="$this.Icon" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
     <value>
         AAABAAQAQEAAAAEAIAAoQgAARgAAADAwAAABACAAqCUAAG5CAAAgIAAAAQAgAKgQAAAWaAAAEBAAAAEA
@@ -667,5 +2220,38 @@
         AABfKsECAAAAAF8qwUBfKsC9YCnGa0JIN5BGREihRUVFIgAAAABFRUUDAAAAAAAAAAAAAAAA/D8AAPAf
         AADwDwAA4AcAAOAHAADgBwAA4AcAAOAHAAD9vwAA4QcAAOGHAADgBwAA4AcAAPGPAADxHwAA/T8AAA==
 </value>
+  </data>
+  <data name="$this.Text" xml:space="preserve">
+    <value>Settings</value>
+  </data>
+  <data name="&gt;&gt;picker_textcolor.Name" xml:space="preserve">
+    <value>picker_textcolor</value>
+  </data>
+  <data name="&gt;&gt;picker_textcolor.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ColorDialog, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;picker_backcolor.Name" xml:space="preserve">
+    <value>picker_backcolor</value>
+  </data>
+  <data name="&gt;&gt;picker_backcolor.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ColorDialog, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;fontDialog_text.Name" xml:space="preserve">
+    <value>fontDialog_text</value>
+  </data>
+  <data name="&gt;&gt;fontDialog_text.Type" xml:space="preserve">
+    <value>System.Windows.Forms.FontDialog, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;picker_ci_color.Name" xml:space="preserve">
+    <value>picker_ci_color</value>
+  </data>
+  <data name="&gt;&gt;picker_ci_color.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ColorDialog, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;$this.Name" xml:space="preserve">
+    <value>Settings</value>
+  </data>
+  <data name="&gt;&gt;$this.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Form, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </data>
 </root>
