@@ -1,7 +1,8 @@
 {
   "ExpandedNodes": [
-    ""
+    "",
+    "\\PxKeystrokesUi"
   ],
-  "SelectedNode": "\\PxKeystrokesUi",
+  "SelectedNode": "\\PxKeystrokesUi\\Settings.cs",
   "PreviewInSolutionExplorer": false
 }
