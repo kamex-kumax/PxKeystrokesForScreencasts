@@ -1,4 +1,4 @@
-﻿using System;
+using System;
 using System.Collections.Generic;
 using System.ComponentModel;
 using System.Data;
@@ -26,7 +26,7 @@ namespace PxKeystrokesUi
 
         IKeystrokeEventProvider k;
 
-        Settings SettingsForm;
+        設定 SettingsForm;
 
         List<TweenLabel> tweenLabels = new List<TweenLabel>(5);
         bool LastHistoryLineIsText = false;
@@ -253,7 +253,7 @@ namespace PxKeystrokesUi
             {
                 SettingsForm.Dispose();
             }
-            SettingsForm = new Settings(settings);
+            SettingsForm = new 設定(settings);
             SettingsForm.Show(this);
         }
 
