@@ -1,4 +1,4 @@
-using System;
+﻿using System;
 using System.Collections.Generic;
 using System.ComponentModel;
 using System.Data;
@@ -25,7 +25,7 @@ namespace PxKeystrokesUi
             UpdateSliderValues();
             UpdateRadioButtons();
             UpdateCheckboxes();
-            UpdateAllDisplayLabel();
+            UpdateHistoryTimeoutDisplayLabel();
 
             BackColor = Color.Lavender;
             TransparencyKey = Color.Lavender;
@@ -276,57 +276,10 @@ namespace PxKeystrokesUi
             cb_bi_history.Checked = settings.AddButtonEventsToHistory;
             cb_backspace.Checked = settings.BackspaceDeletesText;
         }
-
-        private void UpdateFontSizeDisplayLabel()
-        {
-            label_fontsize_display.Text = ((int)(slider_fontsize.Value / 100f)).ToString();
-        }
-
+        
         private void UpdateHistoryTimeoutDisplayLabel()
         {
             label_timeout_display.Text = (slider_history_timeout.Value / 1000).ToString() + "s";
-        }
-
-        private void UpdateCiOpacityDisplayLabel()
-        {
-            label_ci_opacity_display.Text = ((int)(slider_ci_opacity.Value / 10f) / 10).ToString();
-        }
-
-        private void UpdateCiSizeDisplayDisplayLabel()
-        {
-            label_ci_size_display.Text = (slider_ci_size.Value).ToString();
-        }
-
-        private void UpdateOpacityDisplayLabel()
-        {
-            label_opacity_display.Text = ((int)(slider_opacity.Value / 10f) / 10).ToString();
-        }
-
-        private void UpdateBiSizeDisplayLabel()
-        {
-            label_bi_size_display.Text = (slider_bi_size.Value).ToString();
-        }
-
-        private void UpdateBiDistanceDisplayLabel()
-        {
-            label_bi_distance_display.Text = (slider_bi_distance.Value).ToString();
-        }
-
-        private void UpdateBiAngleDisplayLabel()
-        {
-            label_bi_angle_display.Text = (slider_bi_angle.Value).ToString();
-        }
-
-        private void UpdateAllDisplayLabel()
-        {
-            UpdateFontSizeDisplayLabel();
-            UpdateHistoryTimeoutDisplayLabel();
-            UpdateCiOpacityDisplayLabel();
-            UpdateCiSizeDisplayDisplayLabel();
-            UpdateOpacityDisplayLabel();
-            UpdateBiSizeDisplayLabel();
-            UpdateBiDistanceDisplayLabel();
-            UpdateBiAngleDisplayLabel();
         }
 
         private void Settings_Load(object sender, EventArgs e)
@@ -350,7 +303,7 @@ namespace PxKeystrokesUi
             UpdateSliderValues();
             UpdateRadioButtons();
             UpdateCheckboxes();
-            UpdateAllDisplayLabel();
+            UpdateHistoryTimeoutDisplayLabel();
         }
 
         private void button_exit_Click(object sender, EventArgs e)

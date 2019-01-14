@@ -1,4 +1,4 @@
-using System;
+﻿using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
@@ -12,7 +12,7 @@ namespace PxKeystrokesUi
     class ImageResources
     {
         static Assembly _assembly;
-        //static Stream _imageStream;
+        static Stream _imageStream;
 
         public static Bitmap BMouse;
         public static Bitmap BLeft;
@@ -20,7 +20,7 @@ namespace PxKeystrokesUi
         public static Bitmap BMiddle;
         public static Bitmap BLeftDouble;
         public static Bitmap BRightDouble;
-        //public static Bitmap BWheel;
+        public static Bitmap BWheel;
         public static Bitmap BWheelUp;
         public static Bitmap BWheelDown;
 
