@@ -27,8 +27,8 @@ namespace PxKeystrokesUi
             UpdateCheckboxes();
             UpdateAllDisplayLabel();
 
-            BackColor = Color.Lavender;
-            TransparencyKey = Color.Lavender;
+            //BackColor = Color.Lavender;
+            //TransparencyKey = Color.Lavender;
         }
 
         private void linkLabel1_LinkClicked(object sender, LinkLabelLinkClickedEventArgs e)

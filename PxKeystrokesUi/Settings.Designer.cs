@@ -93,6 +93,7 @@ namespace PxKeystrokesUi
             this.slider_bi_size = new System.Windows.Forms.TrackBar();
             this.button_exit = new System.Windows.Forms.Button();
             this.button_close = new System.Windows.Forms.Button();
+            this.cmb_language = new System.Windows.Forms.ComboBox();
             ((System.ComponentModel.ISupportInitialize)(this.slider_opacity)).BeginInit();
             this.gb_text_alignment.SuspendLayout();
             this.gb_textdir.SuspendLayout();
@@ -589,11 +590,21 @@ namespace PxKeystrokesUi
             this.button_close.UseVisualStyleBackColor = true;
             this.button_close.Click += new System.EventHandler(this.button_close_Click);
             // 
+            // cmb_language
+            // 
+            this.cmb_language.FormattingEnabled = true;
+            this.cmb_language.Items.AddRange(new object[] {
+            resources.GetString("cmb_language.Items"),
+            resources.GetString("cmb_language.Items1")});
+            resources.ApplyResources(this.cmb_language, "cmb_language");
+            this.cmb_language.Name = "cmb_language";
+            // 
             // Settings
             // 
             resources.ApplyResources(this, "$this");
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.SystemColors.Control;
+            this.Controls.Add(this.cmb_language);
             this.Controls.Add(this.gb_text);
             this.Controls.Add(this.button_close);
             this.Controls.Add(this.button_exit);
@@ -716,5 +727,6 @@ namespace PxKeystrokesUi
         private System.Windows.Forms.LinkLabel linkLabel1;
         private System.Windows.Forms.Button button_exit;
         private System.Windows.Forms.Button button_close;
+        private System.Windows.Forms.ComboBox cmb_language;
     }
 }

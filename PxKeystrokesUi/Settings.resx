@@ -349,7 +349,7 @@
     <value>$this</value>
   </data>
   <data name="&gt;&gt;gb_text_alignment.ZOrder" xml:space="preserve">
-    <value>12</value>
+    <value>13</value>
   </data>
   <data name="&gt;&gt;rb_td_up.Name" xml:space="preserve">
     <value>rb_td_up</value>
@@ -397,7 +397,7 @@
     <value>$this</value>
   </data>
   <data name="&gt;&gt;gb_textdir.ZOrder" xml:space="preserve">
-    <value>11</value>
+    <value>12</value>
   </data>
   <data name="rb_td_up.AutoSize" type="System.Boolean, mscorlib">
     <value>True</value>
@@ -499,7 +499,7 @@
     <value>$this</value>
   </data>
   <data name="&gt;&gt;gb_style.ZOrder" xml:space="preserve">
-    <value>10</value>
+    <value>11</value>
   </data>
   <data name="rb_style_slide.AutoSize" type="System.Boolean, mscorlib">
     <value>True</value>
@@ -733,7 +733,7 @@
     <value>$this</value>
   </data>
   <data name="&gt;&gt;gb_text.ZOrder" xml:space="preserve">
-    <value>0</value>
+    <value>1</value>
   </data>
   <data name="label_fontsize_display.AutoSize" type="System.Boolean, mscorlib">
     <value>True</value>
@@ -1105,7 +1105,7 @@
     <value>$this</value>
   </data>
   <data name="&gt;&gt;gb_background.ZOrder" xml:space="preserve">
-    <value>9</value>
+    <value>10</value>
   </data>
   <data name="label_opacity_display.AutoSize" type="System.Boolean, mscorlib">
     <value>True</value>
@@ -1165,7 +1165,7 @@
     <value>$this</value>
   </data>
   <data name="&gt;&gt;label1.ZOrder" xml:space="preserve">
-    <value>8</value>
+    <value>9</value>
   </data>
   <data name="linkLabel1.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
     <value>Top, Right</value>
@@ -1195,7 +1195,7 @@
     <value>$this</value>
   </data>
   <data name="&gt;&gt;linkLabel1.ZOrder" xml:space="preserve">
-    <value>7</value>
+    <value>8</value>
   </data>
   <metadata name="picker_textcolor.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
     <value>280, 17</value>
@@ -1228,7 +1228,7 @@
     <value>$this</value>
   </data>
   <data name="&gt;&gt;bn_reset_position.ZOrder" xml:space="preserve">
-    <value>6</value>
+    <value>7</value>
   </data>
   <data name="bn_reset_all.Location" type="System.Drawing.Point, System.Drawing">
     <value>635, 225</value>
@@ -1252,7 +1252,7 @@
     <value>$this</value>
   </data>
   <data name="&gt;&gt;bn_reset_all.ZOrder" xml:space="preserve">
-    <value>5</value>
+    <value>6</value>
   </data>
   <data name="&gt;&gt;label_ci_opacity.Name" xml:space="preserve">
     <value>label_ci_opacity</value>
@@ -1372,7 +1372,7 @@
     <value>$this</value>
   </data>
   <data name="&gt;&gt;gb_mouse.ZOrder" xml:space="preserve">
-    <value>4</value>
+    <value>5</value>
   </data>
   <data name="label_ci_opacity.Location" type="System.Drawing.Point, System.Drawing">
     <value>10, 45</value>
@@ -1590,6 +1590,186 @@
   <metadata name="picker_ci_color.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
     <value>538, 17</value>
   </metadata>
+  <data name="&gt;&gt;rb_bi_simple.Name" xml:space="preserve">
+    <value>rb_bi_simple</value>
+  </data>
+  <data name="&gt;&gt;rb_bi_simple.Type" xml:space="preserve">
+    <value>System.Windows.Forms.RadioButton, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;rb_bi_simple.Parent" xml:space="preserve">
+    <value>gb_buttonindicator</value>
+  </data>
+  <data name="&gt;&gt;rb_bi_simple.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="&gt;&gt;label_bi_angle_display.Name" xml:space="preserve">
+    <value>label_bi_angle_display</value>
+  </data>
+  <data name="&gt;&gt;label_bi_angle_display.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;label_bi_angle_display.Parent" xml:space="preserve">
+    <value>gb_buttonindicator</value>
+  </data>
+  <data name="&gt;&gt;label_bi_angle_display.ZOrder" xml:space="preserve">
+    <value>1</value>
+  </data>
+  <data name="&gt;&gt;label_bi_distance_display.Name" xml:space="preserve">
+    <value>label_bi_distance_display</value>
+  </data>
+  <data name="&gt;&gt;label_bi_distance_display.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;label_bi_distance_display.Parent" xml:space="preserve">
+    <value>gb_buttonindicator</value>
+  </data>
+  <data name="&gt;&gt;label_bi_distance_display.ZOrder" xml:space="preserve">
+    <value>2</value>
+  </data>
+  <data name="&gt;&gt;label_bi_size_display.Name" xml:space="preserve">
+    <value>label_bi_size_display</value>
+  </data>
+  <data name="&gt;&gt;label_bi_size_display.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;label_bi_size_display.Parent" xml:space="preserve">
+    <value>gb_buttonindicator</value>
+  </data>
+  <data name="&gt;&gt;label_bi_size_display.ZOrder" xml:space="preserve">
+    <value>3</value>
+  </data>
+  <data name="&gt;&gt;cb_bi_history.Name" xml:space="preserve">
+    <value>cb_bi_history</value>
+  </data>
+  <data name="&gt;&gt;cb_bi_history.Type" xml:space="preserve">
+    <value>System.Windows.Forms.CheckBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;cb_bi_history.Parent" xml:space="preserve">
+    <value>gb_buttonindicator</value>
+  </data>
+  <data name="&gt;&gt;cb_bi_history.ZOrder" xml:space="preserve">
+    <value>4</value>
+  </data>
+  <data name="&gt;&gt;label_bi_size.Name" xml:space="preserve">
+    <value>label_bi_size</value>
+  </data>
+  <data name="&gt;&gt;label_bi_size.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;label_bi_size.Parent" xml:space="preserve">
+    <value>gb_buttonindicator</value>
+  </data>
+  <data name="&gt;&gt;label_bi_size.ZOrder" xml:space="preserve">
+    <value>5</value>
+  </data>
+  <data name="&gt;&gt;rb_bi_icon.Name" xml:space="preserve">
+    <value>rb_bi_icon</value>
+  </data>
+  <data name="&gt;&gt;rb_bi_icon.Type" xml:space="preserve">
+    <value>System.Windows.Forms.RadioButton, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;rb_bi_icon.Parent" xml:space="preserve">
+    <value>gb_buttonindicator</value>
+  </data>
+  <data name="&gt;&gt;rb_bi_icon.ZOrder" xml:space="preserve">
+    <value>6</value>
+  </data>
+  <data name="&gt;&gt;rb_bi_disable.Name" xml:space="preserve">
+    <value>rb_bi_disable</value>
+  </data>
+  <data name="&gt;&gt;rb_bi_disable.Type" xml:space="preserve">
+    <value>System.Windows.Forms.RadioButton, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;rb_bi_disable.Parent" xml:space="preserve">
+    <value>gb_buttonindicator</value>
+  </data>
+  <data name="&gt;&gt;rb_bi_disable.ZOrder" xml:space="preserve">
+    <value>7</value>
+  </data>
+  <data name="&gt;&gt;label_bi_angle.Name" xml:space="preserve">
+    <value>label_bi_angle</value>
+  </data>
+  <data name="&gt;&gt;label_bi_angle.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;label_bi_angle.Parent" xml:space="preserve">
+    <value>gb_buttonindicator</value>
+  </data>
+  <data name="&gt;&gt;label_bi_angle.ZOrder" xml:space="preserve">
+    <value>8</value>
+  </data>
+  <data name="&gt;&gt;slider_bi_angle.Name" xml:space="preserve">
+    <value>slider_bi_angle</value>
+  </data>
+  <data name="&gt;&gt;slider_bi_angle.Type" xml:space="preserve">
+    <value>System.Windows.Forms.TrackBar, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;slider_bi_angle.Parent" xml:space="preserve">
+    <value>gb_buttonindicator</value>
+  </data>
+  <data name="&gt;&gt;slider_bi_angle.ZOrder" xml:space="preserve">
+    <value>9</value>
+  </data>
+  <data name="&gt;&gt;slider_bi_distance.Name" xml:space="preserve">
+    <value>slider_bi_distance</value>
+  </data>
+  <data name="&gt;&gt;slider_bi_distance.Type" xml:space="preserve">
+    <value>System.Windows.Forms.TrackBar, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;slider_bi_distance.Parent" xml:space="preserve">
+    <value>gb_buttonindicator</value>
+  </data>
+  <data name="&gt;&gt;slider_bi_distance.ZOrder" xml:space="preserve">
+    <value>10</value>
+  </data>
+  <data name="&gt;&gt;label_bi_distance.Name" xml:space="preserve">
+    <value>label_bi_distance</value>
+  </data>
+  <data name="&gt;&gt;label_bi_distance.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;label_bi_distance.Parent" xml:space="preserve">
+    <value>gb_buttonindicator</value>
+  </data>
+  <data name="&gt;&gt;label_bi_distance.ZOrder" xml:space="preserve">
+    <value>11</value>
+  </data>
+  <data name="&gt;&gt;slider_bi_size.Name" xml:space="preserve">
+    <value>slider_bi_size</value>
+  </data>
+  <data name="&gt;&gt;slider_bi_size.Type" xml:space="preserve">
+    <value>System.Windows.Forms.TrackBar, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;slider_bi_size.Parent" xml:space="preserve">
+    <value>gb_buttonindicator</value>
+  </data>
+  <data name="&gt;&gt;slider_bi_size.ZOrder" xml:space="preserve">
+    <value>12</value>
+  </data>
+  <data name="gb_buttonindicator.Location" type="System.Drawing.Point, System.Drawing">
+    <value>530, 10</value>
+  </data>
+  <data name="gb_buttonindicator.Size" type="System.Drawing.Size, System.Drawing">
+    <value>185, 206</value>
+  </data>
+  <data name="gb_buttonindicator.TabIndex" type="System.Int32, mscorlib">
+    <value>43</value>
+  </data>
+  <data name="gb_buttonindicator.Text" xml:space="preserve">
+    <value>Mouse Clicks</value>
+  </data>
+  <data name="&gt;&gt;gb_buttonindicator.Name" xml:space="preserve">
+    <value>gb_buttonindicator</value>
+  </data>
+  <data name="&gt;&gt;gb_buttonindicator.Type" xml:space="preserve">
+    <value>System.Windows.Forms.GroupBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;gb_buttonindicator.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;gb_buttonindicator.ZOrder" xml:space="preserve">
+    <value>4</value>
+  </data>
   <data name="rb_bi_simple.AutoSize" type="System.Boolean, mscorlib">
     <value>True</value>
   </data>
@@ -1944,30 +2124,6 @@
   <data name="&gt;&gt;slider_bi_size.ZOrder" xml:space="preserve">
     <value>12</value>
   </data>
-  <data name="gb_buttonindicator.Location" type="System.Drawing.Point, System.Drawing">
-    <value>530, 10</value>
-  </data>
-  <data name="gb_buttonindicator.Size" type="System.Drawing.Size, System.Drawing">
-    <value>185, 206</value>
-  </data>
-  <data name="gb_buttonindicator.TabIndex" type="System.Int32, mscorlib">
-    <value>43</value>
-  </data>
-  <data name="gb_buttonindicator.Text" xml:space="preserve">
-    <value>Mouse Clicks</value>
-  </data>
-  <data name="&gt;&gt;gb_buttonindicator.Name" xml:space="preserve">
-    <value>gb_buttonindicator</value>
-  </data>
-  <data name="&gt;&gt;gb_buttonindicator.Type" xml:space="preserve">
-    <value>System.Windows.Forms.GroupBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="&gt;&gt;gb_buttonindicator.Parent" xml:space="preserve">
-    <value>$this</value>
-  </data>
-  <data name="&gt;&gt;gb_buttonindicator.ZOrder" xml:space="preserve">
-    <value>3</value>
-  </data>
   <data name="button_exit.Location" type="System.Drawing.Point, System.Drawing">
     <value>345, 295</value>
   </data>
@@ -1990,7 +2146,7 @@
     <value>$this</value>
   </data>
   <data name="&gt;&gt;button_exit.ZOrder" xml:space="preserve">
-    <value>2</value>
+    <value>3</value>
   </data>
   <data name="button_close.Location" type="System.Drawing.Point, System.Drawing">
     <value>530, 295</value>
@@ -2014,7 +2170,34 @@
     <value>$this</value>
   </data>
   <data name="&gt;&gt;button_close.ZOrder" xml:space="preserve">
-    <value>1</value>
+    <value>2</value>
+  </data>
+  <data name="cmb_language.Items" xml:space="preserve">
+    <value>English</value>
+  </data>
+  <data name="cmb_language.Items1" xml:space="preserve">
+    <value>Japanese</value>
+  </data>
+  <data name="cmb_language.Location" type="System.Drawing.Point, System.Drawing">
+    <value>10, 260</value>
+  </data>
+  <data name="cmb_language.Size" type="System.Drawing.Size, System.Drawing">
+    <value>120, 20</value>
+  </data>
+  <data name="cmb_language.TabIndex" type="System.Int32, mscorlib">
+    <value>46</value>
+  </data>
+  <data name="&gt;&gt;cmb_language.Name" xml:space="preserve">
+    <value>cmb_language</value>
+  </data>
+  <data name="&gt;&gt;cmb_language.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ComboBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;cmb_language.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;cmb_language.ZOrder" xml:space="preserve">
+    <value>0</value>
   </data>
   <metadata name="$this.Localizable" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
     <value>True</value>
