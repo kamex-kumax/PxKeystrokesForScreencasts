@@ -1,4 +1,4 @@
-﻿using Microsoft.Win32;
+using Microsoft.Win32;
 using System;
 using System.Collections.Generic;
 using System.Drawing;
@@ -35,7 +35,8 @@ namespace PxKeystrokesUi
     public enum ButtonIndicatorType
     {
         Disabled,
-        PicsAroundCursor
+        PicsAroundCursor,
+        GrphOverCursor
     }
 
     #endregion
@@ -287,7 +288,8 @@ namespace PxKeystrokesUi
         }
 
         private Color cursorIndicatorColor;
-        public Color CursorIndicatorColorDefault = Color.FromArgb(-32640);
+        //public Color CursorIndicatorColorDefault = Color.FromArgb(-32640);
+        public Color CursorIndicatorColorDefault = Color.FromArgb(255,255,000);
         public Color CursorIndicatorColor
         {
             get { return cursorIndicatorColor; }

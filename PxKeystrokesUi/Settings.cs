@@ -172,6 +172,11 @@ namespace PxKeystrokesUi
             settings.ButtonIndicator = ButtonIndicatorType.PicsAroundCursor;
         }
 
+        private void rb_bi_simple_CheckedChanged(object sender, EventArgs e)
+        {
+            settings.ButtonIndicator = ButtonIndicatorType.GrphOverCursor;
+        }
+
         private void slider_bi_size_Scroll(object sender, EventArgs e)
         {
             settings.ButtonIndicatorSize = (float)slider_bi_size.Value / 100f;
@@ -264,6 +269,9 @@ namespace PxKeystrokesUi
                     break;
                 case ButtonIndicatorType.PicsAroundCursor:
                     rb_bi_icon.Checked = true;
+                    break;
+                case ButtonIndicatorType.GrphOverCursor:
+                    rb_bi_simple.Checked = true;
                     break;
             }
         }
