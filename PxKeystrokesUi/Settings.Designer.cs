@@ -727,6 +727,7 @@ namespace PxKeystrokesUi
         private System.Windows.Forms.LinkLabel linkLabel1;
         private System.Windows.Forms.Button button_exit;
         private System.Windows.Forms.Button button_close;
+
         private System.Windows.Forms.ComboBox cmb_language;
     }
 }
