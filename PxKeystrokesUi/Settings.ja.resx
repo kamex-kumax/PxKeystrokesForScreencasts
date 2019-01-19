@@ -117,7 +117,178 @@
   <resheader name="writer">
     <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </resheader>
+  <data name="button_backcolor.Text" xml:space="preserve">
+    <value>色</value>
+  </data>
+  <data name="button_textcolor.Text" xml:space="preserve">
+    <value>色</value>
+  </data>
+  <data name="label_opacity.Text" xml:space="preserve">
+    <value>透過度 :</value>
+  </data>
+  <data name="label_fontsize.Text" xml:space="preserve">
+    <value>サイズ :</value>
+  </data>
   <assembly alias="System.Drawing" name="System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" />
+  <data name="rb_align_left.Size" type="System.Drawing.Size, System.Drawing">
+    <value>56, 16</value>
+  </data>
+  <data name="rb_align_left.Text" xml:space="preserve">
+    <value>左揃え</value>
+  </data>
+  <data name="rb_align_center.Size" type="System.Drawing.Size, System.Drawing">
+    <value>68, 16</value>
+  </data>
+  <data name="rb_align_center.Text" xml:space="preserve">
+    <value>中央揃え</value>
+  </data>
+  <data name="rb_align_right.Size" type="System.Drawing.Size, System.Drawing">
+    <value>56, 16</value>
+  </data>
+  <data name="rb_align_right.Text" xml:space="preserve">
+    <value>右揃え</value>
+  </data>
+  <data name="gb_text_alignment.Text" xml:space="preserve">
+    <value>文字揃え</value>
+  </data>
+  <data name="rb_td_up.Size" type="System.Drawing.Size, System.Drawing">
+    <value>55, 16</value>
+  </data>
+  <data name="rb_td_up.Text" xml:space="preserve">
+    <value>上送り</value>
+  </data>
+  <data name="rb_td_down.Size" type="System.Drawing.Size, System.Drawing">
+    <value>55, 16</value>
+  </data>
+  <data name="rb_td_down.Text" xml:space="preserve">
+    <value>下送り</value>
+  </data>
+  <data name="gb_textdir.Text" xml:space="preserve">
+    <value>文字送り</value>
+  </data>
+  <data name="rb_style_slide.Size" type="System.Drawing.Size, System.Drawing">
+    <value>58, 16</value>
+  </data>
+  <data name="rb_style_slide.Text" xml:space="preserve">
+    <value>スライド</value>
+  </data>
+  <data name="rb_style_noani.Size" type="System.Drawing.Size, System.Drawing">
+    <value>103, 16</value>
+  </data>
+  <data name="rb_style_noani.Text" xml:space="preserve">
+    <value>アニメーションなし</value>
+  </data>
+  <data name="gb_style.Text" xml:space="preserve">
+    <value>表示スタイル</value>
+  </data>
+  <data name="button_textfont.Text" xml:space="preserve">
+    <value>フォント</value>
+  </data>
+  <data name="cb_hideWindow.Size" type="System.Drawing.Size, System.Drawing">
+    <value>132, 16</value>
+  </data>
+  <data name="cb_hideWindow.Text" xml:space="preserve">
+    <value>ウィンドウを自動で隠す</value>
+  </data>
+  <data name="cb_backspace.Size" type="System.Drawing.Size, System.Drawing">
+    <value>151, 16</value>
+  </data>
+  <data name="cb_backspace.Text" xml:space="preserve">
+    <value>Backspace で文字を消去</value>
+  </data>
+  <data name="cb_enableHistoryTimeout.Size" type="System.Drawing.Size, System.Drawing">
+    <value>131, 16</value>
+  </data>
+  <data name="cb_enableHistoryTimeout.Text" xml:space="preserve">
+    <value>ヒストリを時間でリセット</value>
+  </data>
+  <data name="label_history_timeout.Text" xml:space="preserve">
+    <value>リセット :</value>
+  </data>
+  <data name="label_historycount.Size" type="System.Drawing.Size, System.Drawing">
+    <value>49, 12</value>
+  </data>
+  <data name="label_historycount.Text" xml:space="preserve">
+    <value>ヒストリ数</value>
+  </data>
+  <data name="label_verticalDistance.Size" type="System.Drawing.Size, System.Drawing">
+    <value>37, 12</value>
+  </data>
+  <data name="label_verticalDistance.Text" xml:space="preserve">
+    <value>行高さ</value>
+  </data>
+  <data name="gb_text.Text" xml:space="preserve">
+    <value>文字スタイル</value>
+  </data>
+  <data name="gb_background.Text" xml:space="preserve">
+    <value>マウスカーソル背景</value>
+  </data>
+  <data name="label1.Text" xml:space="preserve">
+    <value>設定ウィンドウは、Ctrl + Shift + Alt ボタンの長押しでも起動します。</value>
+  </data>
+  <data name="linkLabel1.Text" xml:space="preserve">
+    <value>何か問題があれば、こちらからソースコードをご確認下さい。</value>
+  </data>
+  <data name="bn_reset_position.Text" xml:space="preserve">
+    <value>サイズ設定リセット</value>
+  </data>
+  <data name="bn_reset_all.Text" xml:space="preserve">
+    <value>設定リセット</value>
+  </data>
+  <data name="label_ci_opacity.Text" xml:space="preserve">
+    <value>透過度 :</value>
+  </data>
+  <data name="button_ci_color.Text" xml:space="preserve">
+    <value>色</value>
+  </data>
+  <data name="label_ci_size.Text" xml:space="preserve">
+    <value>サイズ :</value>
+  </data>
+  <data name="cb_cursorindicator.Size" type="System.Drawing.Size, System.Drawing">
+    <value>119, 16</value>
+  </data>
+  <data name="cb_cursorindicator.Text" xml:space="preserve">
+    <value>カーソル位置を表示</value>
+  </data>
+  <data name="gb_mouse.Text" xml:space="preserve">
+    <value>マウスカーソル</value>
+  </data>
+  <data name="cb_bi_history.Size" type="System.Drawing.Size, System.Drawing">
+    <value>108, 16</value>
+  </data>
+  <data name="cb_bi_history.Text" xml:space="preserve">
+    <value>ヒストリに表示する</value>
+  </data>
+  <data name="label_bi_size.Text" xml:space="preserve">
+    <value>サイズ :</value>
+  </data>
+  <data name="rb_bi_icon.Size" type="System.Drawing.Size, System.Drawing">
+    <value>82, 16</value>
+  </data>
+  <data name="rb_bi_icon.Text" xml:space="preserve">
+    <value>アイコン表示</value>
+  </data>
+  <data name="rb_bi_disable.Size" type="System.Drawing.Size, System.Drawing">
+    <value>66, 16</value>
+  </data>
+  <data name="rb_bi_disable.Text" xml:space="preserve">
+    <value>表示なし</value>
+  </data>
+  <data name="label_bi_angle.Text" xml:space="preserve">
+    <value>方向 :</value>
+  </data>
+  <data name="label_bi_distance.Text" xml:space="preserve">
+    <value>オフセット :</value>
+  </data>
+  <data name="gb_buttonindicator.Text" xml:space="preserve">
+    <value>マウスクリック</value>
+  </data>
+  <data name="button_exit.Text" xml:space="preserve">
+    <value>終了</value>
+  </data>
+  <data name="button_close.Text" xml:space="preserve">
+    <value>設定ウィンドウを閉じる</value>
+  </data>
   <data name="$this.Icon" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
     <value>
         AAABAAQAQEAAAAEAIAAoQgAARgAAADAwAAABACAAqCUAAG5CAAAgIAAAAQAgAKgQAAAWaAAAEBAAAAEA
@@ -655,5 +826,8 @@
         AABfKsECAAAAAF8qwUBfKsC9YCnGa0JIN5BGREihRUVFIgAAAABFRUUDAAAAAAAAAAAAAAAA/D8AAPAf
         AADwDwAA4AcAAOAHAADgBwAA4AcAAOAHAAD9vwAA4QcAAOGHAADgBwAA4AcAAPGPAADxHwAA/T8AAA==
 </value>
+  </data>
+  <data name="$this.Text" xml:space="preserve">
+    <value>設定</value>
   </data>
 </root>

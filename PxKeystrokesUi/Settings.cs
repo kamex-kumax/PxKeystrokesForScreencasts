@@ -1,10 +1,15 @@
 using System;
 using System.Collections.Generic;
+using System.Collections.ObjectModel;
 using System.ComponentModel;
 using System.Data;
 using System.Diagnostics;
 using System.Drawing;
+using System.Globalization;
+using System.IO;
 using System.Linq;
+using System.Reflection;
+using System.Resources;
 using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
@@ -29,6 +34,27 @@ namespace PxKeystrokesUi
 
             //BackColor = Color.Lavender;
             //TransparencyKey = Color.Lavender;
+        }
+
+        private static ReadOnlyCollection<CultureInfo> GetAvailableCultures()
+        {
+            List<CultureInfo> list = new List<CultureInfo>();
+
+            CultureInfo[] neutralCulture = CultureInfo.GetCultures(CultureTypes.NeutralCultures);
+            
+            foreach (CultureInfo _cult in neutralCulture)
+            {
+                try
+                {
+                    Assembly.GetEntryAssembly().GetSatelliteAssembly(_cult);
+                }
+                catch (Exception e)
+                {
+                    continue;
+                }
+                list.Add(_cult);
+            }
+            return list.AsReadOnly();
         }
 
         private void linkLabel1_LinkClicked(object sender, LinkLabelLinkClickedEventArgs e)
