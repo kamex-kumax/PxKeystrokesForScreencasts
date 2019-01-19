@@ -280,7 +280,7 @@ namespace PxKeystrokesUi
         }
 
         private Size cursorIndicatorSize;
-        public Size CursorIndicatorSizeDefault = new Size(55, 55);
+        public Size CursorIndicatorSizeDefault = new Size(80, 80);
         public Size CursorIndicatorSize
         {
             get { return cursorIndicatorSize; }
