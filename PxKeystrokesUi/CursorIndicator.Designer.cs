@@ -35,6 +35,7 @@ namespace PxKeystrokesUi
             // 
             resources.ApplyResources(this, "$this");
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
+            this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.None;
             this.Name = "CursorIndicator";
             this.ShowInTaskbar = false;
             this.ResumeLayout(false);

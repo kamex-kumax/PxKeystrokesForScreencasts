@@ -66,6 +66,7 @@ namespace PxKeystrokesUi
         {
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.None;
             this.Opacity = s.CursorIndicatorOpacity;
+            this.AllowTransparency = true;
             NativeMethodsGWL.ClickThrough(this.Handle);
             NativeMethodsGWL.HideFromAltTab(this.Handle);
 

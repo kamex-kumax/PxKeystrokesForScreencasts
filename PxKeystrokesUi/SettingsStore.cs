@@ -142,7 +142,15 @@ namespace PxKeystrokesUi
             get { return labelFont; }
             set { labelFont = value; OnSettingChanged("LabelFont"); }
         }
-
+        /*
+        private String[] avilableCultureNames;
+        public String[] AvilableCultureNamesDefault = new String[0];
+        public String[] AvilableCultureNames
+        {
+            get { return avilableCultureNames; }
+            set { avilableCultureNames = value; OnSettingChanged("AvilableCultureNames"); }
+        }
+        */
         private Color textColor;
         public Color TextColorDefault = Color.White;
         public Color TextColor

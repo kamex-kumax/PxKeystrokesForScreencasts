@@ -1,4 +1,5 @@
 using System;
+using System.Collections;
 using System.Collections.Generic;
 using System.Collections.ObjectModel;
 using System.ComponentModel;
@@ -23,9 +24,11 @@ namespace PxKeystrokesUi
             this.settings = s;
             InitializeComponent();
 
-            bool b = AllowTransparency;
-            if (b) Console.WriteLine("true");
-            else Console.WriteLine("false");
+            SetFormStyles();
+
+            //bool b = AllowTransparency;
+            //if (b) Console.WriteLine("true");
+            //else Console.WriteLine("false");
 
             UpdateSliderValues();
             UpdateRadioButtons();
@@ -36,30 +39,18 @@ namespace PxKeystrokesUi
             //TransparencyKey = Color.Lavender;
         }
 
-        private static ReadOnlyCollection<CultureInfo> GetAvailableCultures()
-        {
-            List<CultureInfo> list = new List<CultureInfo>();
-
-            CultureInfo[] neutralCulture = CultureInfo.GetCultures(CultureTypes.NeutralCultures);
-            
-            foreach (CultureInfo _cult in neutralCulture)
-            {
-                try
-                {
-                    Assembly.GetEntryAssembly().GetSatelliteAssembly(_cult);
-                }
-                catch (Exception e)
-                {
-                    continue;
-                }
-                list.Add(_cult);
-            }
-            return list.AsReadOnly();
-        }
-
         private void linkLabel1_LinkClicked(object sender, LinkLabelLinkClickedEventArgs e)
         {
             UrlOpener.OpenGithub();
+        }
+
+        void SetFormStyles()
+        {
+            //List<CultureInfo> availCultNames = new List<CultureInfo> { new CultureInfo("en"), new CultureInfo("ja") };
+            //this.bindingList = new BindingList<CultureInfo>(availCultNames);
+            //this.cmb_language.DataSource = this.bindingList;
+            //this.cmb_language.SelectedIndex = 0;
+
         }
 
         SettingsStore settings;
@@ -68,7 +59,12 @@ namespace PxKeystrokesUi
         {
             settings.SaveAll();
         }
-
+        /*
+        private void avilableCultureNames_CheckedChanged(object sender, EventArgs e)
+        {
+            settings.AvilableCultureNames = AvilableCultureNames;
+        }
+        */
         private void rb_align_left_CheckedChanged(object sender, EventArgs e)
         {
             settings.LabelTextAlignment = TextAlignent.Left;
@@ -365,7 +361,38 @@ namespace PxKeystrokesUi
 
         private void Settings_Load(object sender, EventArgs e)
         {
+            cmb_language.DrawItem += new DrawItemEventHandler(RightAlignDrawItem);
+        }
 
+        private void RightAlignDrawItem(object sender, DrawItemEventArgs e)
+        {
+            // By using Sender, one method could handle multiple ComboBoxes
+            ComboBox _cmb = sender as ComboBox;
+            if (_cmb != null)
+            {
+                // Always draw the background
+                e.DrawBackground();
+
+                // Drawing one of the items?
+                if (e.Index >= 0)
+                {
+                    // Set the string alignment.  Choices are Center, Near and Far
+                    StringFormat sf = new StringFormat();
+                    sf.LineAlignment = StringAlignment.Far;
+                    sf.Alignment = StringAlignment.Far;
+
+                    // Set the Brush to ComboBox ForeColor to maintain any ComboBox color settings
+                    // Assumes Brush is solid
+                    Brush brush = new SolidBrush(_cmb.ForeColor);
+
+                    // If drawing highlighted selection, change brush
+                    if ((e.State & DrawItemState.Selected) == DrawItemState.Selected)
+                        brush = SystemBrushes.HighlightText;
+
+                    // Draw the string
+                    e.Graphics.DrawString(_cmb.Items[e.Index].ToString(), _cmb.Font, brush, e.Bounds, sf);
+                }
+            }
         }
 
         private void bn_reset_position_Click(object sender, EventArgs e)
@@ -400,6 +427,11 @@ namespace PxKeystrokesUi
         private void cb_hideWindow_CheckedChanged(object sender, EventArgs e)
         {
             settings.EnableWindowFade = cb_hideWindow.Checked;
+        }
+
+        private void cmb_language_SelectedIndexChanged(object sender, EventArgs e)
+        {
+
         }
     }
 }

@@ -1,4 +1,10 @@
+using System;
+using System.Collections;
+using System.Collections.Generic;
+using System.Collections.ObjectModel;
+using System.ComponentModel;
 using System.Globalization;
+using System.Reflection;
 
 namespace PxKeystrokesUi
 {
@@ -8,6 +14,8 @@ namespace PxKeystrokesUi
         /// Required designer variable.
         /// </summary>
         private System.ComponentModel.IContainer components = null;
+
+        //private Collection<string> availCultNames = new Collection<string>();
 
         /// <summary>
         /// Clean up any resources being used.
@@ -80,6 +88,12 @@ namespace PxKeystrokesUi
             this.cb_cursorindicator = new System.Windows.Forms.CheckBox();
             this.picker_ci_color = new System.Windows.Forms.ColorDialog();
             this.gb_buttonindicator = new System.Windows.Forms.GroupBox();
+            this.checkBox3 = new System.Windows.Forms.CheckBox();
+            this.checkBox2 = new System.Windows.Forms.CheckBox();
+            this.checkBox1 = new System.Windows.Forms.CheckBox();
+            this.button3 = new System.Windows.Forms.Button();
+            this.button2 = new System.Windows.Forms.Button();
+            this.button1 = new System.Windows.Forms.Button();
             this.rb_bi_simple = new System.Windows.Forms.RadioButton();
             this.label_bi_angle_display = new System.Windows.Forms.Label();
             this.label_bi_distance_display = new System.Windows.Forms.Label();
@@ -173,6 +187,23 @@ namespace PxKeystrokesUi
             this.rb_align_right.UseVisualStyleBackColor = true;
             this.rb_align_right.CheckedChanged += new System.EventHandler(this.rb_align_right_CheckedChanged);
             // 
+            // gb_text_alignment
+            // 
+            this.gb_text_alignment.Controls.Add(this.rb_align_left);
+            this.gb_text_alignment.Controls.Add(this.rb_align_right);
+            this.gb_text_alignment.Controls.Add(this.rb_align_center);
+            resources.ApplyResources(this.gb_text_alignment, "gb_text_alignment");
+            this.gb_text_alignment.Name = "gb_text_alignment";
+            this.gb_text_alignment.TabStop = false;
+            // 
+            // gb_textdir
+            // 
+            this.gb_textdir.Controls.Add(this.rb_td_up);
+            this.gb_textdir.Controls.Add(this.rb_td_down);
+            resources.ApplyResources(this.gb_textdir, "gb_textdir");
+            this.gb_textdir.Name = "gb_textdir";
+            this.gb_textdir.TabStop = false;
+            // 
             // rb_td_up
             // 
             resources.ApplyResources(this.rb_td_up, "rb_td_up");
@@ -188,6 +219,14 @@ namespace PxKeystrokesUi
             this.rb_td_down.TabStop = true;
             this.rb_td_down.UseVisualStyleBackColor = true;
             this.rb_td_down.CheckedChanged += new System.EventHandler(this.rb_td_down_CheckedChanged);
+            // 
+            // gb_style
+            // 
+            this.gb_style.Controls.Add(this.rb_style_slide);
+            this.gb_style.Controls.Add(this.rb_style_noani);
+            resources.ApplyResources(this.gb_style, "gb_style");
+            this.gb_style.Name = "gb_style";
+            this.gb_style.TabStop = false;
             // 
             // rb_style_slide
             // 
@@ -205,34 +244,8 @@ namespace PxKeystrokesUi
             this.rb_style_noani.UseVisualStyleBackColor = true;
             this.rb_style_noani.CheckedChanged += new System.EventHandler(this.rb_style_noani_CheckedChanged);
             // 
-            // gb_text_alignment
-            // 
-            resources.ApplyResources(this.gb_text_alignment, "gb_text_alignment");
-            this.gb_text_alignment.Controls.Add(this.rb_align_left);
-            this.gb_text_alignment.Controls.Add(this.rb_align_right);
-            this.gb_text_alignment.Controls.Add(this.rb_align_center);
-            this.gb_text_alignment.Name = "gb_text_alignment";
-            this.gb_text_alignment.TabStop = false;
-            // 
-            // gb_textdir
-            // 
-            resources.ApplyResources(this.gb_textdir, "gb_textdir");
-            this.gb_textdir.Controls.Add(this.rb_td_up);
-            this.gb_textdir.Controls.Add(this.rb_td_down);
-            this.gb_textdir.Name = "gb_textdir";
-            this.gb_textdir.TabStop = false;
-            // 
-            // gb_style
-            // 
-            resources.ApplyResources(this.gb_style, "gb_style");
-            this.gb_style.Controls.Add(this.rb_style_slide);
-            this.gb_style.Controls.Add(this.rb_style_noani);
-            this.gb_style.Name = "gb_style";
-            this.gb_style.TabStop = false;
-            // 
             // gb_text
             // 
-            resources.ApplyResources(this.gb_text, "gb_text");
             this.gb_text.Controls.Add(this.label_fontsize_display);
             this.gb_text.Controls.Add(this.button_textfont);
             this.gb_text.Controls.Add(this.cb_hideWindow);
@@ -248,51 +261,9 @@ namespace PxKeystrokesUi
             this.gb_text.Controls.Add(this.button_textcolor);
             this.gb_text.Controls.Add(this.label_fontsize);
             this.gb_text.Controls.Add(this.slider_fontsize);
+            resources.ApplyResources(this.gb_text, "gb_text");
             this.gb_text.Name = "gb_text";
             this.gb_text.TabStop = false;
-            // 
-            // gb_background
-            // 
-            resources.ApplyResources(this.gb_background, "gb_background");
-            this.gb_background.Controls.Add(this.label_opacity_display);
-            this.gb_background.Controls.Add(this.button_backcolor);
-            this.gb_background.Controls.Add(this.slider_opacity);
-            this.gb_background.Controls.Add(this.label_opacity);
-            this.gb_background.Name = "gb_background";
-            this.gb_background.TabStop = false;
-            // 
-            // gb_mouse
-            // 
-            resources.ApplyResources(this.gb_mouse, "gb_mouse");
-            this.gb_mouse.Controls.Add(this.label_ci_opacity);
-            this.gb_mouse.Controls.Add(this.label_ci_size_display);
-            this.gb_mouse.Controls.Add(this.label_ci_opacity_display);
-            this.gb_mouse.Controls.Add(this.button_ci_color);
-            this.gb_mouse.Controls.Add(this.label_ci_size);
-            this.gb_mouse.Controls.Add(this.slider_ci_size);
-            this.gb_mouse.Controls.Add(this.slider_ci_opacity);
-            this.gb_mouse.Controls.Add(this.cb_cursorindicator);
-            this.gb_mouse.Name = "gb_mouse";
-            this.gb_mouse.TabStop = false;
-            // 
-            // gb_buttonindicator
-            // 
-            resources.ApplyResources(this.gb_buttonindicator, "gb_buttonindicator");
-            this.gb_buttonindicator.Controls.Add(this.rb_bi_simple);
-            this.gb_buttonindicator.Controls.Add(this.label_bi_angle_display);
-            this.gb_buttonindicator.Controls.Add(this.label_bi_distance_display);
-            this.gb_buttonindicator.Controls.Add(this.label_bi_size_display);
-            this.gb_buttonindicator.Controls.Add(this.cb_bi_history);
-            this.gb_buttonindicator.Controls.Add(this.label_bi_size);
-            this.gb_buttonindicator.Controls.Add(this.rb_bi_icon);
-            this.gb_buttonindicator.Controls.Add(this.rb_bi_disable);
-            this.gb_buttonindicator.Controls.Add(this.label_bi_angle);
-            this.gb_buttonindicator.Controls.Add(this.slider_bi_angle);
-            this.gb_buttonindicator.Controls.Add(this.slider_bi_distance);
-            this.gb_buttonindicator.Controls.Add(this.label_bi_distance);
-            this.gb_buttonindicator.Controls.Add(this.slider_bi_size);
-            this.gb_buttonindicator.Name = "gb_buttonindicator";
-            this.gb_buttonindicator.TabStop = false;
             // 
             // label_fontsize_display
             // 
@@ -395,14 +366,24 @@ namespace PxKeystrokesUi
             // 
             // slider_fontsize
             // 
-            resources.ApplyResources(this.slider_fontsize, "slider_fontsize");
             this.slider_fontsize.BackColor = System.Drawing.SystemColors.Control;
+            resources.ApplyResources(this.slider_fontsize, "slider_fontsize");
             this.slider_fontsize.Maximum = 3000;
             this.slider_fontsize.Minimum = 800;
             this.slider_fontsize.Name = "slider_fontsize";
             this.slider_fontsize.TickStyle = System.Windows.Forms.TickStyle.None;
             this.slider_fontsize.Value = 800;
             this.slider_fontsize.Scroll += new System.EventHandler(this.slider_fontsize_Scroll);
+            // 
+            // gb_background
+            // 
+            this.gb_background.Controls.Add(this.label_opacity_display);
+            this.gb_background.Controls.Add(this.button_backcolor);
+            this.gb_background.Controls.Add(this.slider_opacity);
+            this.gb_background.Controls.Add(this.label_opacity);
+            resources.ApplyResources(this.gb_background, "gb_background");
+            this.gb_background.Name = "gb_background";
+            this.gb_background.TabStop = false;
             // 
             // label_opacity_display
             // 
@@ -434,6 +415,20 @@ namespace PxKeystrokesUi
             this.bn_reset_all.Name = "bn_reset_all";
             this.bn_reset_all.UseVisualStyleBackColor = true;
             this.bn_reset_all.Click += new System.EventHandler(this.bn_reset_all_Click);
+            // 
+            // gb_mouse
+            // 
+            this.gb_mouse.Controls.Add(this.label_ci_opacity);
+            this.gb_mouse.Controls.Add(this.label_ci_size_display);
+            this.gb_mouse.Controls.Add(this.label_ci_opacity_display);
+            this.gb_mouse.Controls.Add(this.button_ci_color);
+            this.gb_mouse.Controls.Add(this.label_ci_size);
+            this.gb_mouse.Controls.Add(this.slider_ci_size);
+            this.gb_mouse.Controls.Add(this.slider_ci_opacity);
+            this.gb_mouse.Controls.Add(this.cb_cursorindicator);
+            resources.ApplyResources(this.gb_mouse, "gb_mouse");
+            this.gb_mouse.Name = "gb_mouse";
+            this.gb_mouse.TabStop = false;
             // 
             // label_ci_opacity
             // 
@@ -469,7 +464,7 @@ namespace PxKeystrokesUi
             this.slider_ci_size.Minimum = 4;
             this.slider_ci_size.Name = "slider_ci_size";
             this.slider_ci_size.TickStyle = System.Windows.Forms.TickStyle.None;
-            this.slider_ci_size.Value = 55;
+            this.slider_ci_size.Value = 80;
             this.slider_ci_size.Scroll += new System.EventHandler(this.slider_ci_size_Scroll);
             // 
             // slider_ci_opacity
@@ -488,6 +483,67 @@ namespace PxKeystrokesUi
             this.cb_cursorindicator.Name = "cb_cursorindicator";
             this.cb_cursorindicator.UseVisualStyleBackColor = true;
             this.cb_cursorindicator.CheckedChanged += new System.EventHandler(this.cb_cursorindicator_CheckedChanged);
+            // 
+            // gb_buttonindicator
+            // 
+            this.gb_buttonindicator.Controls.Add(this.checkBox3);
+            this.gb_buttonindicator.Controls.Add(this.checkBox2);
+            this.gb_buttonindicator.Controls.Add(this.checkBox1);
+            this.gb_buttonindicator.Controls.Add(this.button3);
+            this.gb_buttonindicator.Controls.Add(this.button2);
+            this.gb_buttonindicator.Controls.Add(this.button1);
+            this.gb_buttonindicator.Controls.Add(this.rb_bi_simple);
+            this.gb_buttonindicator.Controls.Add(this.label_bi_angle_display);
+            this.gb_buttonindicator.Controls.Add(this.label_bi_distance_display);
+            this.gb_buttonindicator.Controls.Add(this.label_bi_size_display);
+            this.gb_buttonindicator.Controls.Add(this.cb_bi_history);
+            this.gb_buttonindicator.Controls.Add(this.label_bi_size);
+            this.gb_buttonindicator.Controls.Add(this.rb_bi_icon);
+            this.gb_buttonindicator.Controls.Add(this.rb_bi_disable);
+            this.gb_buttonindicator.Controls.Add(this.label_bi_angle);
+            this.gb_buttonindicator.Controls.Add(this.slider_bi_angle);
+            this.gb_buttonindicator.Controls.Add(this.slider_bi_distance);
+            this.gb_buttonindicator.Controls.Add(this.label_bi_distance);
+            this.gb_buttonindicator.Controls.Add(this.slider_bi_size);
+            resources.ApplyResources(this.gb_buttonindicator, "gb_buttonindicator");
+            this.gb_buttonindicator.Name = "gb_buttonindicator";
+            this.gb_buttonindicator.TabStop = false;
+            // 
+            // checkBox3
+            // 
+            resources.ApplyResources(this.checkBox3, "checkBox3");
+            this.checkBox3.Name = "checkBox3";
+            this.checkBox3.UseVisualStyleBackColor = true;
+            // 
+            // checkBox2
+            // 
+            resources.ApplyResources(this.checkBox2, "checkBox2");
+            this.checkBox2.Name = "checkBox2";
+            this.checkBox2.UseVisualStyleBackColor = true;
+            // 
+            // checkBox1
+            // 
+            resources.ApplyResources(this.checkBox1, "checkBox1");
+            this.checkBox1.Name = "checkBox1";
+            this.checkBox1.UseVisualStyleBackColor = true;
+            // 
+            // button3
+            // 
+            resources.ApplyResources(this.button3, "button3");
+            this.button3.Name = "button3";
+            this.button3.UseVisualStyleBackColor = true;
+            // 
+            // button2
+            // 
+            resources.ApplyResources(this.button2, "button2");
+            this.button2.Name = "button2";
+            this.button2.UseVisualStyleBackColor = true;
+            // 
+            // button1
+            // 
+            resources.ApplyResources(this.button1, "button1");
+            this.button1.Name = "button1";
+            this.button1.UseVisualStyleBackColor = true;
             // 
             // rb_bi_simple
             // 
@@ -594,14 +650,14 @@ namespace PxKeystrokesUi
             // 
             // cmb_language
             // 
+            this.cmb_language.DrawMode = System.Windows.Forms.DrawMode.OwnerDrawFixed;
+            this.cmb_language.DropDownStyle = System.Windows.Forms.ComboBoxStyle.DropDownList;
+            this.cmb_language.Items.AddRange(new object[] {
+            resources.GetString("cmb_language.Items"),
+            resources.GetString("cmb_language.Items1")});
             resources.ApplyResources(this.cmb_language, "cmb_language");
-            this.cmb_language.FormattingEnabled = true;
             this.cmb_language.Name = "cmb_language";
-            foreach(CultureInfo _cult in GetAvailableCultures())
-            {
-                this.cmb_language.Items.Add(_cult.DisplayName);
-            }
-            
+            this.cmb_language.SelectedIndexChanged += new System.EventHandler(this.cmb_language_SelectedIndexChanged);
             // 
             // Settings
             // 
@@ -653,7 +709,9 @@ namespace PxKeystrokesUi
 
         }
 
-        #endregion
+    #endregion
+
+        //private List<string> availCultNames;
 
         private System.Windows.Forms.RadioButton rb_align_left;
         private System.Windows.Forms.RadioButton rb_align_center;
@@ -733,5 +791,12 @@ namespace PxKeystrokesUi
         private System.Windows.Forms.Button button_close;
 
         private System.Windows.Forms.ComboBox cmb_language;
+        private System.Windows.Forms.CheckBox checkBox3;
+        private System.Windows.Forms.CheckBox checkBox2;
+        private System.Windows.Forms.CheckBox checkBox1;
+        private System.Windows.Forms.Button button3;
+        private System.Windows.Forms.Button button2;
+        private System.Windows.Forms.Button button1;
+        //private System.ComponentModel.BindingList<CultureInfo> bindingList;
     }
 }

@@ -1,10 +1,13 @@
-﻿using System;
+using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
 using System.Drawing;
+using System.Globalization;
+using System.Reflection;
+using System.Resources;
 
 namespace PxKeystrokesUi
 {
@@ -45,8 +48,42 @@ namespace PxKeystrokesUi
             mySettings.WindowLocationDefault = new Point(R.Right - mySettings.WindowSizeDefault.Width - 20,
                 R.Bottom - mySettings.WindowSizeDefault.Height);
 
-            //mySettings.ClearAll(); // test defaults
+            //
+            mySettings.ClearAll(); // test defaults
             mySettings.LoadAll();
+        }
+
+        private static List<string> GetAvailableCultureNames()
+        {
+            List<string> culNames = new List<string>();
+            CultureInfo _nrCult = null;
+            CultureInfo[] _nCults = CultureInfo.GetCultures(CultureTypes.NeutralCultures);
+            Assembly _assembly = Assembly.GetExecutingAssembly();
+
+            try
+            {
+                Attribute _attr = Attribute.GetCustomAttribute(_assembly, typeof(NeutralResourcesLanguageAttribute));
+                _nrCult = new CultureInfo(_attr.ToString());
+                culNames.Add(_nrCult.Name);
+            }
+            catch (Exception e)
+            {
+
+            }
+
+            foreach (CultureInfo _cult in _nCults)
+            {
+                try
+                {
+                    _assembly.GetSatelliteAssembly(_cult);
+                }
+                catch (Exception e)
+                {
+                    continue;
+                }
+                culNames.Add(_cult.Name);
+            }
+            return culNames;
         }
 
         IKeyboardRawEventProvider myKeyboardHook;
