@@ -88,12 +88,12 @@ namespace PxKeystrokesUi
             this.cb_cursorindicator = new System.Windows.Forms.CheckBox();
             this.picker_ci_color = new System.Windows.Forms.ColorDialog();
             this.gb_buttonindicator = new System.Windows.Forms.GroupBox();
-            this.checkBox3 = new System.Windows.Forms.CheckBox();
-            this.checkBox2 = new System.Windows.Forms.CheckBox();
-            this.checkBox1 = new System.Windows.Forms.CheckBox();
-            this.button3 = new System.Windows.Forms.Button();
-            this.button2 = new System.Windows.Forms.Button();
-            this.button1 = new System.Windows.Forms.Button();
+            this.cb_bi_wclick = new System.Windows.Forms.CheckBox();
+            this.cb_bi_wheel = new System.Windows.Forms.CheckBox();
+            this.cb_bi_click = new System.Windows.Forms.CheckBox();
+            this.button_bi_wheelcolor = new System.Windows.Forms.Button();
+            this.button_bi_wclickcolor = new System.Windows.Forms.Button();
+            this.button_bi_clickcolor = new System.Windows.Forms.Button();
             this.rb_bi_simple = new System.Windows.Forms.RadioButton();
             this.label_bi_angle_display = new System.Windows.Forms.Label();
             this.label_bi_distance_display = new System.Windows.Forms.Label();
@@ -110,6 +110,9 @@ namespace PxKeystrokesUi
             this.button_exit = new System.Windows.Forms.Button();
             this.button_close = new System.Windows.Forms.Button();
             this.cmb_language = new System.Windows.Forms.ComboBox();
+            this.picker_bi_clickcolor = new System.Windows.Forms.ColorDialog();
+            this.picker_bi_wclickcolor = new System.Windows.Forms.ColorDialog();
+            this.picker_bi_wheelcolor = new System.Windows.Forms.ColorDialog();
             ((System.ComponentModel.ISupportInitialize)(this.slider_opacity)).BeginInit();
             this.gb_text_alignment.SuspendLayout();
             this.gb_textdir.SuspendLayout();
@@ -486,12 +489,12 @@ namespace PxKeystrokesUi
             // 
             // gb_buttonindicator
             // 
-            this.gb_buttonindicator.Controls.Add(this.checkBox3);
-            this.gb_buttonindicator.Controls.Add(this.checkBox2);
-            this.gb_buttonindicator.Controls.Add(this.checkBox1);
-            this.gb_buttonindicator.Controls.Add(this.button3);
-            this.gb_buttonindicator.Controls.Add(this.button2);
-            this.gb_buttonindicator.Controls.Add(this.button1);
+            this.gb_buttonindicator.Controls.Add(this.cb_bi_wclick);
+            this.gb_buttonindicator.Controls.Add(this.cb_bi_wheel);
+            this.gb_buttonindicator.Controls.Add(this.cb_bi_click);
+            this.gb_buttonindicator.Controls.Add(this.button_bi_wheelcolor);
+            this.gb_buttonindicator.Controls.Add(this.button_bi_wclickcolor);
+            this.gb_buttonindicator.Controls.Add(this.button_bi_clickcolor);
             this.gb_buttonindicator.Controls.Add(this.rb_bi_simple);
             this.gb_buttonindicator.Controls.Add(this.label_bi_angle_display);
             this.gb_buttonindicator.Controls.Add(this.label_bi_distance_display);
@@ -509,41 +512,41 @@ namespace PxKeystrokesUi
             this.gb_buttonindicator.Name = "gb_buttonindicator";
             this.gb_buttonindicator.TabStop = false;
             // 
-            // checkBox3
+            // cb_bi_wclick
             // 
-            resources.ApplyResources(this.checkBox3, "checkBox3");
-            this.checkBox3.Name = "checkBox3";
-            this.checkBox3.UseVisualStyleBackColor = true;
+            resources.ApplyResources(this.cb_bi_wclick, "cb_bi_wclick");
+            this.cb_bi_wclick.Name = "cb_bi_wclick";
+            this.cb_bi_wclick.UseVisualStyleBackColor = true;
             // 
-            // checkBox2
+            // cb_bi_wheel
             // 
-            resources.ApplyResources(this.checkBox2, "checkBox2");
-            this.checkBox2.Name = "checkBox2";
-            this.checkBox2.UseVisualStyleBackColor = true;
+            resources.ApplyResources(this.cb_bi_wheel, "cb_bi_wheel");
+            this.cb_bi_wheel.Name = "cb_bi_wheel";
+            this.cb_bi_wheel.UseVisualStyleBackColor = true;
             // 
-            // checkBox1
+            // cb_bi_click
             // 
-            resources.ApplyResources(this.checkBox1, "checkBox1");
-            this.checkBox1.Name = "checkBox1";
-            this.checkBox1.UseVisualStyleBackColor = true;
+            resources.ApplyResources(this.cb_bi_click, "cb_bi_click");
+            this.cb_bi_click.Name = "cb_bi_click";
+            this.cb_bi_click.UseVisualStyleBackColor = true;
             // 
-            // button3
+            // button_bi_wheelcolor
             // 
-            resources.ApplyResources(this.button3, "button3");
-            this.button3.Name = "button3";
-            this.button3.UseVisualStyleBackColor = true;
+            resources.ApplyResources(this.button_bi_wheelcolor, "button_bi_wheelcolor");
+            this.button_bi_wheelcolor.Name = "button_bi_wheelcolor";
+            this.button_bi_wheelcolor.UseVisualStyleBackColor = true;
             // 
-            // button2
+            // button_bi_wclickcolor
             // 
-            resources.ApplyResources(this.button2, "button2");
-            this.button2.Name = "button2";
-            this.button2.UseVisualStyleBackColor = true;
+            resources.ApplyResources(this.button_bi_wclickcolor, "button_bi_wclickcolor");
+            this.button_bi_wclickcolor.Name = "button_bi_wclickcolor";
+            this.button_bi_wclickcolor.UseVisualStyleBackColor = true;
             // 
-            // button1
+            // button_bi_clickcolor
             // 
-            resources.ApplyResources(this.button1, "button1");
-            this.button1.Name = "button1";
-            this.button1.UseVisualStyleBackColor = true;
+            resources.ApplyResources(this.button_bi_clickcolor, "button_bi_clickcolor");
+            this.button_bi_clickcolor.Name = "button_bi_clickcolor";
+            this.button_bi_clickcolor.UseVisualStyleBackColor = true;
             // 
             // rb_bi_simple
             // 
@@ -603,10 +606,10 @@ namespace PxKeystrokesUi
             // slider_bi_angle
             // 
             resources.ApplyResources(this.slider_bi_angle, "slider_bi_angle");
-            this.slider_bi_angle.Maximum = 65;
+            this.slider_bi_angle.Maximum = 180;
+            this.slider_bi_angle.Minimum = -180;
             this.slider_bi_angle.Name = "slider_bi_angle";
-            this.slider_bi_angle.TickStyle = System.Windows.Forms.TickStyle.None;
-            this.slider_bi_angle.Value = 65;
+            this.slider_bi_angle.TickFrequency = 180;
             this.slider_bi_angle.Scroll += new System.EventHandler(this.slider_bi_angle_Scroll);
             // 
             // slider_bi_distance
@@ -627,11 +630,11 @@ namespace PxKeystrokesUi
             // slider_bi_size
             // 
             resources.ApplyResources(this.slider_bi_size, "slider_bi_size");
-            this.slider_bi_size.Maximum = 70;
-            this.slider_bi_size.Minimum = 20;
+            this.slider_bi_size.Maximum = 200;
+            this.slider_bi_size.Minimum = 4;
             this.slider_bi_size.Name = "slider_bi_size";
             this.slider_bi_size.TickStyle = System.Windows.Forms.TickStyle.None;
-            this.slider_bi_size.Value = 70;
+            this.slider_bi_size.Value = 80;
             this.slider_bi_size.Scroll += new System.EventHandler(this.slider_bi_size_Scroll);
             // 
             // button_exit
@@ -791,12 +794,15 @@ namespace PxKeystrokesUi
         private System.Windows.Forms.Button button_close;
 
         private System.Windows.Forms.ComboBox cmb_language;
-        private System.Windows.Forms.CheckBox checkBox3;
-        private System.Windows.Forms.CheckBox checkBox2;
-        private System.Windows.Forms.CheckBox checkBox1;
-        private System.Windows.Forms.Button button3;
-        private System.Windows.Forms.Button button2;
-        private System.Windows.Forms.Button button1;
+        private System.Windows.Forms.CheckBox cb_bi_wclick;
+        private System.Windows.Forms.CheckBox cb_bi_wheel;
+        private System.Windows.Forms.CheckBox cb_bi_click;
+        private System.Windows.Forms.Button button_bi_wheelcolor;
+        private System.Windows.Forms.Button button_bi_wclickcolor;
+        private System.Windows.Forms.Button button_bi_clickcolor;
+        private System.Windows.Forms.ColorDialog picker_bi_clickcolor;
+        private System.Windows.Forms.ColorDialog picker_bi_wclickcolor;
+        private System.Windows.Forms.ColorDialog picker_bi_wheelcolor;
         //private System.ComponentModel.BindingList<CultureInfo> bindingList;
     }
 }

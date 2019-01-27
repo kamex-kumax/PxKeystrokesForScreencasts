@@ -287,9 +287,9 @@ namespace PxKeystrokesUi
             set { cursorIndicatorOpacity = value; OnSettingChanged("CursorIndicatorOpacity"); }
         }
 
-        private Size cursorIndicatorSize;
-        public Size CursorIndicatorSizeDefault = new Size(80, 80);
-        public Size CursorIndicatorSize
+        private int cursorIndicatorSize;
+        public int CursorIndicatorSizeDefault = 80;
+        public int CursorIndicatorSize
         {
             get { return cursorIndicatorSize; }
             set { cursorIndicatorSize = value; OnSettingChanged("CursorIndicatorSize"); }
@@ -312,24 +312,24 @@ namespace PxKeystrokesUi
             set { buttonIndicator = value; OnSettingChanged("ButtonIndicator"); }
         }
 
-        private float buttonIndicatorSize;
-        public float ButtonIndicatorSizeDefault = 0.32f;
-        public float ButtonIndicatorSize
+        private int buttonIndicatorSize;
+        public int ButtonIndicatorSizeDefault = 80;
+        public int ButtonIndicatorSize
         {
             get { return buttonIndicatorSize; }
             set { buttonIndicatorSize = value; OnSettingChanged("ButtonIndicatorSize"); }
         }
 
-        private float buttonIndicatorPositionAngle;
-        public float ButtonIndicatorPositionAngleDefault = 0f;
-        public float ButtonIndicatorPositionAngle
+        private int buttonIndicatorPositionAngle;
+        public int ButtonIndicatorPositionAngleDefault = 0;
+        public int ButtonIndicatorPositionAngle
         {
             get { return buttonIndicatorPositionAngle; }
             set { buttonIndicatorPositionAngle = value; OnSettingChanged("ButtonIndicatorPositionAngle"); }
         }
 
         private int buttonIndicatorPositionDistance;
-        public int ButtonIndicatorPositionDistanceDefault = 56;
+        public int ButtonIndicatorPositionDistanceDefault = 55;
         public int ButtonIndicatorPositionDistance
         {
             get { return buttonIndicatorPositionDistance; }

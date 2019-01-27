@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg
+   xmlns:dc="http://purl.org/dc/elements/1.1/"
+   xmlns:cc="http://creativecommons.org/ns#"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+   xmlns:svg="http://www.w3.org/2000/svg"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   version="1.1"
+   viewBox="0 0 80 80"
+   id="svg48"
+   sodipodi:docname="mousemouse_right_double.svg"
+   inkscape:version="0.92.4 (5da689c313, 2019-01-14)"
+   width="80"
+   height="80">
+  <metadata
+     id="metadata54">
+    <rdf:RDF>
+      <cc:Work
+         rdf:about="">
+        <dc:format>image/svg+xml</dc:format>
+        <dc:type
+           rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
+        <dc:title></dc:title>
+      </cc:Work>
+    </rdf:RDF>
+  </metadata>
+  <defs
+     id="defs52" />
+  <sodipodi:namedview
+     pagecolor="#ffffff"
+     bordercolor="#666666"
+     borderopacity="1"
+     objecttolerance="10"
+     gridtolerance="10"
+     guidetolerance="10"
+     inkscape:pageopacity="0"
+     inkscape:pageshadow="2"
+     inkscape:window-width="640"
+     inkscape:window-height="480"
+     id="namedview50"
+     showgrid="false"
+     inkscape:current-layer="svg48"
+     inkscape:zoom="13.485714"
+     inkscape:cx="7.6991559"
+     inkscape:cy="38.98897"
+     inkscape:snap-bbox="true"
+     inkscape:bbox-paths="true"
+     inkscape:bbox-nodes="true"
+     inkscape:snap-bbox-edge-midpoints="true"
+     inkscape:snap-bbox-midpoints="true"
+     inkscape:object-paths="true"
+     inkscape:snap-intersection-paths="true"
+     inkscape:snap-smooth-nodes="true"
+     inkscape:snap-midpoints="true"
+     inkscape:snap-object-midpoints="true"
+     inkscape:snap-center="true"
+     inkscape:snap-text-baseline="true"
+     inkscape:snap-page="true"
+     showguides="false" />
+  <g
+     id="g17"
+     style="fill:#c12a5f;fill-opacity:1;fill-rule:evenodd">
+    <path
+       d="m 41.599723,6.9769169 v 3.7526101 c 0.03239,-0.0012 0.06478,-0.0015 0.09719,-0.0018 0.04297,0.0012 0.0859,0.0035 0.128783,0.0066 13.256697,0.908741 23.420462,11.572558 23.953148,24.489803 0.118726,2.879679 0.193836,5.026173 0.240277,7.221936 1.246025,-0.262377 2.490222,-0.53934 3.731852,-0.836484 -0.0481,-2.027563 -0.116416,-3.955 -0.222987,-6.539975 C 68.918064,20.276753 57.210579,8.0316985 42.08994,6.9913586 c -0.0029,-3.143e-4 -0.005,-3.143e-4 -0.0077,-6e-4 -0.08906,-0.0062 -0.178478,-0.01038 -0.267706,-0.013126 l -0.0071,-6e-4 c -0.06931,-0.00214 -0.13836,-3.143e-4 -0.207482,0 z"
+       id="path14"
+       inkscape:connector-curvature="0"
+       style="fill:#c12a5f;stroke-width:0.28572068" />
+    <path
+       d="M 41.599709,0.00122768 V 4.2923236 c 16.679014,1.1848517 29.651204,14.7445554 30.326145,31.1155594 0.09809,2.379164 0.162424,3.789242 0.211062,5.695005 1.421738,-0.373492 2.839381,-0.775035 4.254158,-1.194224 -0.04677,-1.626477 -0.103765,-2.725061 -0.184232,-4.676645 C 75.442033,16.682044 60.700348,1.3263485 41.846329,0.01371339 V 0.0131172 c 5.71e-4,0 -0.0055,-5.6747e-4 -0.02146,-0.0017885 -0.0014,0 -0.0029,-4.985e-4 -0.0042,-5.9619e-4 -0.008,-5.6472e-4 -0.0031,1.431e-5 -0.01014,-5.9618e-4 -0.04785,-0.00317475 -0.09575,-0.00533724 -0.143688,-0.00655829 -2.86e-4,-2.443e-5 -8.58e-4,2.442e-5 -0.0011,0 C 41.642741,0.00214329 41.622421,0.0012217 41.599561,6.4675e-7 Z"
+       id="path15"
+       inkscape:connector-curvature="0"
+       style="fill:#c12a5f;stroke-width:0.28572068" />
+    <path
+       d="m 41.599723,14.026377 c 11.631781,0.797349 20.416666,10.050817 20.881888,21.333067 0.123906,3.005142 0.20157,5.481626 0.246569,7.737834 -6.896218,1.5287 -13.989943,2.366039 -21.128237,2.493944 v -6.467016 c 2.154126,-0.835662 3.674768,-3.320663 3.77581,-6.255166 0.08674,-2.524534 0.09949,-3.895779 0,-6.994513 -0.09424,-2.935205 -1.619393,-5.419962 -3.77581,-6.255164 z"
+       id="path16"
+       inkscape:connector-curvature="0"
+       style="fill:#c12a5f;stroke-width:0.28572068" />
+  </g>
+</svg>

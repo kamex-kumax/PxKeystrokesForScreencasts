@@ -172,7 +172,7 @@ namespace PxKeystrokesUi
 
         private void slider_ci_size_Scroll(object sender, EventArgs e)
         {
-            settings.CursorIndicatorSize = new Size(slider_ci_size.Value, slider_ci_size.Value);
+            settings.CursorIndicatorSize = slider_ci_size.Value;
         }
 
         private void button_ci_color_Click(object sender, EventArgs e)
@@ -201,7 +201,7 @@ namespace PxKeystrokesUi
 
         private void slider_bi_size_Scroll(object sender, EventArgs e)
         {
-            settings.ButtonIndicatorSize = (float)slider_bi_size.Value / 100f;
+            settings.ButtonIndicatorSize = slider_bi_size.Value;
         }
 
         private void slider_bi_distance_Scroll(object sender, EventArgs e)
@@ -211,7 +211,7 @@ namespace PxKeystrokesUi
 
         private void slider_bi_angle_Scroll(object sender, EventArgs e)
         {
-            settings.ButtonIndicatorPositionAngle = (float)slider_bi_angle.Value / 10f;
+            settings.ButtonIndicatorPositionAngle = slider_bi_angle.Value;
         }
 
         private void cb_backspace_CheckedChanged(object sender, EventArgs e)
@@ -230,16 +230,16 @@ namespace PxKeystrokesUi
 
             slider_opacity.Value = (int)(settings.Opacity * 100f);
 
-            ExtendTrackbarRangeIfNeeded(slider_ci_size, settings.CursorIndicatorSize.Height);
+            ExtendTrackbarRangeIfNeeded(slider_ci_size, settings.CursorIndicatorSize);
             slider_ci_opacity.Value = (int)(settings.CursorIndicatorOpacity * 100f);
 
             nud_historycount.Value = settings.HistoryLength;
             nud_verticalDistance.Value = settings.LineDistance;
             ExtendTrackbarRangeIfNeeded(slider_history_timeout, settings.HistoryTimeout);
 
-            ExtendTrackbarRangeIfNeeded(slider_bi_angle, (int)(settings.ButtonIndicatorPositionAngle * 10f));
+            ExtendTrackbarRangeIfNeeded(slider_bi_angle, settings.ButtonIndicatorPositionAngle);
             ExtendTrackbarRangeIfNeeded(slider_bi_distance, settings.ButtonIndicatorPositionDistance);
-            ExtendTrackbarRangeIfNeeded(slider_bi_size, (int)(settings.ButtonIndicatorSize * 100f));
+            ExtendTrackbarRangeIfNeeded(slider_bi_size, settings.ButtonIndicatorSize);
         }
 
         private void ExtendTrackbarRangeIfNeeded(TrackBar slider, int value)
@@ -319,7 +319,6 @@ namespace PxKeystrokesUi
 
         private void UpdateCiOpacityDisplayLabel()
         {
-            label_ci_opacity_display.Text = ((int)(slider_ci_opacity.Value / 10f) / 10).ToString();
         }
 
         private void UpdateCiSizeDisplayDisplayLabel()

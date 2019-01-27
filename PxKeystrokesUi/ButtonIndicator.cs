@@ -41,8 +41,6 @@ namespace PxKeystrokesUi
 
         }
 
-
-
         private void ButtonIndicator_Load(object sender, EventArgs e)
         {
             Log.e("SOME", "ButtonIndicator => Load");
@@ -55,7 +53,6 @@ namespace PxKeystrokesUi
             pb_right_double.Image = ImageResources.BRightDouble;
             pb_wheel_up.Image = ImageResources.BWheelUp;
             pb_wheel_down.Image = ImageResources.BWheelDown;
-            
 
             RecalcOffset();
             UpdateSize();
@@ -238,7 +235,7 @@ namespace PxKeystrokesUi
         void SetFormStyles()
         {
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.None;
-            this.AllowTransparency = true;
+            //this.AllowTransparency = true;
             this.Opacity = 0.8;
             NativeMethodsGWL.ClickThrough(this.Handle);
             NativeMethodsGWL.HideFromAltTab(this.Handle);
@@ -247,11 +244,11 @@ namespace PxKeystrokesUi
             UpdatePosition();
         }
 
-        
-
         void UpdateSize()
         {
-            float sizefactor = s.ButtonIndicatorSize;
+            int maxSize = s.ButtonIndicatorSize;
+            float sizefactor = (float)maxSize / ImageResources.BMouse.Width;
+            if(ImageResources.BMouse.Width < ImageResources.BMouse.Height) sizefactor = (float)maxSize / ImageResources.BMouse.Height;
             Size picSize = new Size( (int)(ImageResources.BMouse.Width * sizefactor),
                                      (int)(ImageResources.BMouse.Height * sizefactor));
             panel_mouse.Size = picSize;
@@ -272,6 +269,9 @@ namespace PxKeystrokesUi
             pb_wheel_down.Location = new Point(0, 0);
             
             this.Size = picSize;
+
+            //panel_mouse.BackgroundImage = new Bitmap(ImageResources.MMouse, picSize);
+            
             Log.e("BI", "size change");
         }
 

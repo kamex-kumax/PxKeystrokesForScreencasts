@@ -1590,409 +1590,157 @@
   <metadata name="picker_ci_color.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
     <value>538, 17</value>
   </metadata>
-  <data name="&gt;&gt;checkBox3.Name" xml:space="preserve">
-    <value>checkBox3</value>
-  </data>
-  <data name="&gt;&gt;checkBox3.Type" xml:space="preserve">
-    <value>System.Windows.Forms.CheckBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="&gt;&gt;checkBox3.Parent" xml:space="preserve">
-    <value>gb_buttonindicator</value>
-  </data>
-  <data name="&gt;&gt;checkBox3.ZOrder" xml:space="preserve">
-    <value>0</value>
-  </data>
-  <data name="&gt;&gt;checkBox2.Name" xml:space="preserve">
-    <value>checkBox2</value>
-  </data>
-  <data name="&gt;&gt;checkBox2.Type" xml:space="preserve">
-    <value>System.Windows.Forms.CheckBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="&gt;&gt;checkBox2.Parent" xml:space="preserve">
-    <value>gb_buttonindicator</value>
-  </data>
-  <data name="&gt;&gt;checkBox2.ZOrder" xml:space="preserve">
-    <value>1</value>
-  </data>
-  <data name="&gt;&gt;checkBox1.Name" xml:space="preserve">
-    <value>checkBox1</value>
-  </data>
-  <data name="&gt;&gt;checkBox1.Type" xml:space="preserve">
-    <value>System.Windows.Forms.CheckBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="&gt;&gt;checkBox1.Parent" xml:space="preserve">
-    <value>gb_buttonindicator</value>
-  </data>
-  <data name="&gt;&gt;checkBox1.ZOrder" xml:space="preserve">
-    <value>2</value>
-  </data>
-  <data name="&gt;&gt;button3.Name" xml:space="preserve">
-    <value>button3</value>
-  </data>
-  <data name="&gt;&gt;button3.Type" xml:space="preserve">
-    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="&gt;&gt;button3.Parent" xml:space="preserve">
-    <value>gb_buttonindicator</value>
-  </data>
-  <data name="&gt;&gt;button3.ZOrder" xml:space="preserve">
-    <value>3</value>
-  </data>
-  <data name="&gt;&gt;button2.Name" xml:space="preserve">
-    <value>button2</value>
-  </data>
-  <data name="&gt;&gt;button2.Type" xml:space="preserve">
-    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="&gt;&gt;button2.Parent" xml:space="preserve">
-    <value>gb_buttonindicator</value>
-  </data>
-  <data name="&gt;&gt;button2.ZOrder" xml:space="preserve">
-    <value>4</value>
-  </data>
-  <data name="&gt;&gt;button1.Name" xml:space="preserve">
-    <value>button1</value>
-  </data>
-  <data name="&gt;&gt;button1.Type" xml:space="preserve">
-    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="&gt;&gt;button1.Parent" xml:space="preserve">
-    <value>gb_buttonindicator</value>
-  </data>
-  <data name="&gt;&gt;button1.ZOrder" xml:space="preserve">
-    <value>5</value>
-  </data>
-  <data name="&gt;&gt;rb_bi_simple.Name" xml:space="preserve">
-    <value>rb_bi_simple</value>
-  </data>
-  <data name="&gt;&gt;rb_bi_simple.Type" xml:space="preserve">
-    <value>System.Windows.Forms.RadioButton, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="&gt;&gt;rb_bi_simple.Parent" xml:space="preserve">
-    <value>gb_buttonindicator</value>
-  </data>
-  <data name="&gt;&gt;rb_bi_simple.ZOrder" xml:space="preserve">
-    <value>6</value>
-  </data>
-  <data name="&gt;&gt;label_bi_angle_display.Name" xml:space="preserve">
-    <value>label_bi_angle_display</value>
-  </data>
-  <data name="&gt;&gt;label_bi_angle_display.Type" xml:space="preserve">
-    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="&gt;&gt;label_bi_angle_display.Parent" xml:space="preserve">
-    <value>gb_buttonindicator</value>
-  </data>
-  <data name="&gt;&gt;label_bi_angle_display.ZOrder" xml:space="preserve">
-    <value>7</value>
-  </data>
-  <data name="&gt;&gt;label_bi_distance_display.Name" xml:space="preserve">
-    <value>label_bi_distance_display</value>
-  </data>
-  <data name="&gt;&gt;label_bi_distance_display.Type" xml:space="preserve">
-    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="&gt;&gt;label_bi_distance_display.Parent" xml:space="preserve">
-    <value>gb_buttonindicator</value>
-  </data>
-  <data name="&gt;&gt;label_bi_distance_display.ZOrder" xml:space="preserve">
-    <value>8</value>
-  </data>
-  <data name="&gt;&gt;label_bi_size_display.Name" xml:space="preserve">
-    <value>label_bi_size_display</value>
-  </data>
-  <data name="&gt;&gt;label_bi_size_display.Type" xml:space="preserve">
-    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="&gt;&gt;label_bi_size_display.Parent" xml:space="preserve">
-    <value>gb_buttonindicator</value>
-  </data>
-  <data name="&gt;&gt;label_bi_size_display.ZOrder" xml:space="preserve">
-    <value>9</value>
-  </data>
-  <data name="&gt;&gt;cb_bi_history.Name" xml:space="preserve">
-    <value>cb_bi_history</value>
-  </data>
-  <data name="&gt;&gt;cb_bi_history.Type" xml:space="preserve">
-    <value>System.Windows.Forms.CheckBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="&gt;&gt;cb_bi_history.Parent" xml:space="preserve">
-    <value>gb_buttonindicator</value>
-  </data>
-  <data name="&gt;&gt;cb_bi_history.ZOrder" xml:space="preserve">
-    <value>10</value>
-  </data>
-  <data name="&gt;&gt;label_bi_size.Name" xml:space="preserve">
-    <value>label_bi_size</value>
-  </data>
-  <data name="&gt;&gt;label_bi_size.Type" xml:space="preserve">
-    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="&gt;&gt;label_bi_size.Parent" xml:space="preserve">
-    <value>gb_buttonindicator</value>
-  </data>
-  <data name="&gt;&gt;label_bi_size.ZOrder" xml:space="preserve">
-    <value>11</value>
-  </data>
-  <data name="&gt;&gt;rb_bi_icon.Name" xml:space="preserve">
-    <value>rb_bi_icon</value>
-  </data>
-  <data name="&gt;&gt;rb_bi_icon.Type" xml:space="preserve">
-    <value>System.Windows.Forms.RadioButton, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="&gt;&gt;rb_bi_icon.Parent" xml:space="preserve">
-    <value>gb_buttonindicator</value>
-  </data>
-  <data name="&gt;&gt;rb_bi_icon.ZOrder" xml:space="preserve">
-    <value>12</value>
-  </data>
-  <data name="&gt;&gt;rb_bi_disable.Name" xml:space="preserve">
-    <value>rb_bi_disable</value>
-  </data>
-  <data name="&gt;&gt;rb_bi_disable.Type" xml:space="preserve">
-    <value>System.Windows.Forms.RadioButton, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="&gt;&gt;rb_bi_disable.Parent" xml:space="preserve">
-    <value>gb_buttonindicator</value>
-  </data>
-  <data name="&gt;&gt;rb_bi_disable.ZOrder" xml:space="preserve">
-    <value>13</value>
-  </data>
-  <data name="&gt;&gt;label_bi_angle.Name" xml:space="preserve">
-    <value>label_bi_angle</value>
-  </data>
-  <data name="&gt;&gt;label_bi_angle.Type" xml:space="preserve">
-    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="&gt;&gt;label_bi_angle.Parent" xml:space="preserve">
-    <value>gb_buttonindicator</value>
-  </data>
-  <data name="&gt;&gt;label_bi_angle.ZOrder" xml:space="preserve">
-    <value>14</value>
-  </data>
-  <data name="&gt;&gt;slider_bi_angle.Name" xml:space="preserve">
-    <value>slider_bi_angle</value>
-  </data>
-  <data name="&gt;&gt;slider_bi_angle.Type" xml:space="preserve">
-    <value>System.Windows.Forms.TrackBar, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="&gt;&gt;slider_bi_angle.Parent" xml:space="preserve">
-    <value>gb_buttonindicator</value>
-  </data>
-  <data name="&gt;&gt;slider_bi_angle.ZOrder" xml:space="preserve">
-    <value>15</value>
-  </data>
-  <data name="&gt;&gt;slider_bi_distance.Name" xml:space="preserve">
-    <value>slider_bi_distance</value>
-  </data>
-  <data name="&gt;&gt;slider_bi_distance.Type" xml:space="preserve">
-    <value>System.Windows.Forms.TrackBar, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="&gt;&gt;slider_bi_distance.Parent" xml:space="preserve">
-    <value>gb_buttonindicator</value>
-  </data>
-  <data name="&gt;&gt;slider_bi_distance.ZOrder" xml:space="preserve">
-    <value>16</value>
-  </data>
-  <data name="&gt;&gt;label_bi_distance.Name" xml:space="preserve">
-    <value>label_bi_distance</value>
-  </data>
-  <data name="&gt;&gt;label_bi_distance.Type" xml:space="preserve">
-    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="&gt;&gt;label_bi_distance.Parent" xml:space="preserve">
-    <value>gb_buttonindicator</value>
-  </data>
-  <data name="&gt;&gt;label_bi_distance.ZOrder" xml:space="preserve">
-    <value>17</value>
-  </data>
-  <data name="&gt;&gt;slider_bi_size.Name" xml:space="preserve">
-    <value>slider_bi_size</value>
-  </data>
-  <data name="&gt;&gt;slider_bi_size.Type" xml:space="preserve">
-    <value>System.Windows.Forms.TrackBar, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="&gt;&gt;slider_bi_size.Parent" xml:space="preserve">
-    <value>gb_buttonindicator</value>
-  </data>
-  <data name="&gt;&gt;slider_bi_size.ZOrder" xml:space="preserve">
-    <value>18</value>
-  </data>
-  <data name="gb_buttonindicator.Location" type="System.Drawing.Point, System.Drawing">
-    <value>530, 38</value>
-  </data>
-  <data name="gb_buttonindicator.Size" type="System.Drawing.Size, System.Drawing">
-    <value>185, 320</value>
-  </data>
-  <data name="gb_buttonindicator.TabIndex" type="System.Int32, mscorlib">
-    <value>43</value>
-  </data>
-  <data name="gb_buttonindicator.Text" xml:space="preserve">
-    <value>Mouse Clicks</value>
-  </data>
-  <data name="&gt;&gt;gb_buttonindicator.Name" xml:space="preserve">
-    <value>gb_buttonindicator</value>
-  </data>
-  <data name="&gt;&gt;gb_buttonindicator.Type" xml:space="preserve">
-    <value>System.Windows.Forms.GroupBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="&gt;&gt;gb_buttonindicator.Parent" xml:space="preserve">
-    <value>$this</value>
-  </data>
-  <data name="&gt;&gt;gb_buttonindicator.ZOrder" xml:space="preserve">
-    <value>4</value>
-  </data>
-  <data name="checkBox3.AutoSize" type="System.Boolean, mscorlib">
+  <data name="cb_bi_wclick.AutoSize" type="System.Boolean, mscorlib">
     <value>True</value>
   </data>
-  <data name="checkBox3.Location" type="System.Drawing.Point, System.Drawing">
+  <data name="cb_bi_wclick.Location" type="System.Drawing.Point, System.Drawing">
     <value>10, 205</value>
   </data>
-  <data name="checkBox3.Size" type="System.Drawing.Size, System.Drawing">
+  <data name="cb_bi_wclick.Size" type="System.Drawing.Size, System.Drawing">
     <value>135, 16</value>
   </data>
-  <data name="checkBox3.TabIndex" type="System.Int32, mscorlib">
+  <data name="cb_bi_wclick.TabIndex" type="System.Int32, mscorlib">
     <value>59</value>
   </data>
-  <data name="checkBox3.Text" xml:space="preserve">
+  <data name="cb_bi_wclick.Text" xml:space="preserve">
     <value>Indicate DoubleClicks</value>
   </data>
-  <data name="&gt;&gt;checkBox3.Name" xml:space="preserve">
-    <value>checkBox3</value>
+  <data name="&gt;&gt;cb_bi_wclick.Name" xml:space="preserve">
+    <value>cb_bi_wclick</value>
   </data>
-  <data name="&gt;&gt;checkBox3.Type" xml:space="preserve">
+  <data name="&gt;&gt;cb_bi_wclick.Type" xml:space="preserve">
     <value>System.Windows.Forms.CheckBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </data>
-  <data name="&gt;&gt;checkBox3.Parent" xml:space="preserve">
+  <data name="&gt;&gt;cb_bi_wclick.Parent" xml:space="preserve">
     <value>gb_buttonindicator</value>
   </data>
-  <data name="&gt;&gt;checkBox3.ZOrder" xml:space="preserve">
+  <data name="&gt;&gt;cb_bi_wclick.ZOrder" xml:space="preserve">
     <value>0</value>
   </data>
-  <data name="checkBox2.AutoSize" type="System.Boolean, mscorlib">
+  <data name="cb_bi_wheel.AutoSize" type="System.Boolean, mscorlib">
     <value>True</value>
   </data>
-  <data name="checkBox2.Location" type="System.Drawing.Point, System.Drawing">
+  <data name="cb_bi_wheel.Location" type="System.Drawing.Point, System.Drawing">
     <value>10, 250</value>
   </data>
-  <data name="checkBox2.Size" type="System.Drawing.Size, System.Drawing">
+  <data name="cb_bi_wheel.Size" type="System.Drawing.Size, System.Drawing">
     <value>98, 16</value>
   </data>
-  <data name="checkBox2.TabIndex" type="System.Int32, mscorlib">
+  <data name="cb_bi_wheel.TabIndex" type="System.Int32, mscorlib">
     <value>58</value>
   </data>
-  <data name="checkBox2.Text" xml:space="preserve">
+  <data name="cb_bi_wheel.Text" xml:space="preserve">
     <value>Indicate Wheel</value>
   </data>
-  <data name="&gt;&gt;checkBox2.Name" xml:space="preserve">
-    <value>checkBox2</value>
+  <data name="&gt;&gt;cb_bi_wheel.Name" xml:space="preserve">
+    <value>cb_bi_wheel</value>
   </data>
-  <data name="&gt;&gt;checkBox2.Type" xml:space="preserve">
+  <data name="&gt;&gt;cb_bi_wheel.Type" xml:space="preserve">
     <value>System.Windows.Forms.CheckBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </data>
-  <data name="&gt;&gt;checkBox2.Parent" xml:space="preserve">
+  <data name="&gt;&gt;cb_bi_wheel.Parent" xml:space="preserve">
     <value>gb_buttonindicator</value>
   </data>
-  <data name="&gt;&gt;checkBox2.ZOrder" xml:space="preserve">
+  <data name="&gt;&gt;cb_bi_wheel.ZOrder" xml:space="preserve">
     <value>1</value>
   </data>
-  <data name="checkBox1.AutoSize" type="System.Boolean, mscorlib">
+  <data name="cb_bi_click.AutoSize" type="System.Boolean, mscorlib">
     <value>True</value>
   </data>
-  <data name="checkBox1.Location" type="System.Drawing.Point, System.Drawing">
+  <data name="cb_bi_click.Location" type="System.Drawing.Point, System.Drawing">
     <value>12, 155</value>
   </data>
-  <data name="checkBox1.Size" type="System.Drawing.Size, System.Drawing">
+  <data name="cb_bi_click.Size" type="System.Drawing.Size, System.Drawing">
     <value>100, 16</value>
   </data>
-  <data name="checkBox1.TabIndex" type="System.Int32, mscorlib">
+  <data name="cb_bi_click.TabIndex" type="System.Int32, mscorlib">
     <value>57</value>
   </data>
-  <data name="checkBox1.Text" xml:space="preserve">
+  <data name="cb_bi_click.Text" xml:space="preserve">
     <value>Indicate Clicks</value>
   </data>
-  <data name="&gt;&gt;checkBox1.Name" xml:space="preserve">
-    <value>checkBox1</value>
+  <data name="&gt;&gt;cb_bi_click.Name" xml:space="preserve">
+    <value>cb_bi_click</value>
   </data>
-  <data name="&gt;&gt;checkBox1.Type" xml:space="preserve">
+  <data name="&gt;&gt;cb_bi_click.Type" xml:space="preserve">
     <value>System.Windows.Forms.CheckBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </data>
-  <data name="&gt;&gt;checkBox1.Parent" xml:space="preserve">
+  <data name="&gt;&gt;cb_bi_click.Parent" xml:space="preserve">
     <value>gb_buttonindicator</value>
   </data>
-  <data name="&gt;&gt;checkBox1.ZOrder" xml:space="preserve">
+  <data name="&gt;&gt;cb_bi_click.ZOrder" xml:space="preserve">
     <value>2</value>
   </data>
-  <data name="button3.Location" type="System.Drawing.Point, System.Drawing">
+  <data name="button_bi_wheelcolor.Location" type="System.Drawing.Point, System.Drawing">
     <value>10, 270</value>
   </data>
-  <data name="button3.Size" type="System.Drawing.Size, System.Drawing">
+  <data name="button_bi_wheelcolor.Size" type="System.Drawing.Size, System.Drawing">
     <value>165, 20</value>
   </data>
-  <data name="button3.TabIndex" type="System.Int32, mscorlib">
+  <data name="button_bi_wheelcolor.TabIndex" type="System.Int32, mscorlib">
     <value>56</value>
   </data>
-  <data name="button3.Text" xml:space="preserve">
+  <data name="button_bi_wheelcolor.Text" xml:space="preserve">
     <value>Wheel Color</value>
   </data>
-  <data name="&gt;&gt;button3.Name" xml:space="preserve">
-    <value>button3</value>
+  <data name="&gt;&gt;button_bi_wheelcolor.Name" xml:space="preserve">
+    <value>button_bi_wheelcolor</value>
   </data>
-  <data name="&gt;&gt;button3.Type" xml:space="preserve">
+  <data name="&gt;&gt;button_bi_wheelcolor.Type" xml:space="preserve">
     <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </data>
-  <data name="&gt;&gt;button3.Parent" xml:space="preserve">
+  <data name="&gt;&gt;button_bi_wheelcolor.Parent" xml:space="preserve">
     <value>gb_buttonindicator</value>
   </data>
-  <data name="&gt;&gt;button3.ZOrder" xml:space="preserve">
+  <data name="&gt;&gt;button_bi_wheelcolor.ZOrder" xml:space="preserve">
     <value>3</value>
   </data>
-  <data name="button2.Location" type="System.Drawing.Point, System.Drawing">
+  <data name="button_bi_wclickcolor.Location" type="System.Drawing.Point, System.Drawing">
     <value>10, 225</value>
   </data>
-  <data name="button2.Size" type="System.Drawing.Size, System.Drawing">
+  <data name="button_bi_wclickcolor.Size" type="System.Drawing.Size, System.Drawing">
     <value>165, 20</value>
   </data>
-  <data name="button2.TabIndex" type="System.Int32, mscorlib">
+  <data name="button_bi_wclickcolor.TabIndex" type="System.Int32, mscorlib">
     <value>55</value>
   </data>
-  <data name="button2.Text" xml:space="preserve">
+  <data name="button_bi_wclickcolor.Text" xml:space="preserve">
     <value>DoubleClick Color</value>
   </data>
-  <data name="&gt;&gt;button2.Name" xml:space="preserve">
-    <value>button2</value>
+  <data name="&gt;&gt;button_bi_wclickcolor.Name" xml:space="preserve">
+    <value>button_bi_wclickcolor</value>
   </data>
-  <data name="&gt;&gt;button2.Type" xml:space="preserve">
+  <data name="&gt;&gt;button_bi_wclickcolor.Type" xml:space="preserve">
     <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </data>
-  <data name="&gt;&gt;button2.Parent" xml:space="preserve">
+  <data name="&gt;&gt;button_bi_wclickcolor.Parent" xml:space="preserve">
     <value>gb_buttonindicator</value>
   </data>
-  <data name="&gt;&gt;button2.ZOrder" xml:space="preserve">
+  <data name="&gt;&gt;button_bi_wclickcolor.ZOrder" xml:space="preserve">
     <value>4</value>
   </data>
-  <data name="button1.Location" type="System.Drawing.Point, System.Drawing">
+  <data name="button_bi_clickcolor.Location" type="System.Drawing.Point, System.Drawing">
     <value>10, 175</value>
   </data>
-  <data name="button1.Size" type="System.Drawing.Size, System.Drawing">
+  <data name="button_bi_clickcolor.Size" type="System.Drawing.Size, System.Drawing">
     <value>165, 20</value>
   </data>
-  <data name="button1.TabIndex" type="System.Int32, mscorlib">
+  <data name="button_bi_clickcolor.TabIndex" type="System.Int32, mscorlib">
     <value>52</value>
   </data>
-  <data name="button1.Text" xml:space="preserve">
+  <data name="button_bi_clickcolor.Text" xml:space="preserve">
     <value>Click Color</value>
   </data>
-  <data name="&gt;&gt;button1.Name" xml:space="preserve">
-    <value>button1</value>
+  <data name="&gt;&gt;button_bi_clickcolor.Name" xml:space="preserve">
+    <value>button_bi_clickcolor</value>
   </data>
-  <data name="&gt;&gt;button1.Type" xml:space="preserve">
+  <data name="&gt;&gt;button_bi_clickcolor.Type" xml:space="preserve">
     <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </data>
-  <data name="&gt;&gt;button1.Parent" xml:space="preserve">
+  <data name="&gt;&gt;button_bi_clickcolor.Parent" xml:space="preserve">
     <value>gb_buttonindicator</value>
   </data>
-  <data name="&gt;&gt;button1.ZOrder" xml:space="preserve">
+  <data name="&gt;&gt;button_bi_clickcolor.ZOrder" xml:space="preserve">
     <value>5</value>
   </data>
   <data name="rb_bi_simple.AutoSize" type="System.Boolean, mscorlib">
@@ -2032,13 +1780,13 @@
     <value>Yes</value>
   </data>
   <data name="label_bi_angle_display.Size" type="System.Drawing.Size, System.Drawing">
-    <value>17, 12</value>
+    <value>11, 12</value>
   </data>
   <data name="label_bi_angle_display.TabIndex" type="System.Int32, mscorlib">
     <value>53</value>
   </data>
   <data name="label_bi_angle_display.Text" xml:space="preserve">
-    <value>55</value>
+    <value>0</value>
   </data>
   <data name="&gt;&gt;label_bi_angle_display.Name" xml:space="preserve">
     <value>label_bi_angle_display</value>
@@ -2098,7 +1846,7 @@
     <value>51</value>
   </data>
   <data name="label_bi_size_display.Text" xml:space="preserve">
-    <value>55</value>
+    <value>80</value>
   </data>
   <data name="&gt;&gt;label_bi_size_display.Name" xml:space="preserve">
     <value>label_bi_size_display</value>
@@ -2349,6 +2097,30 @@
   <data name="&gt;&gt;slider_bi_size.ZOrder" xml:space="preserve">
     <value>18</value>
   </data>
+  <data name="gb_buttonindicator.Location" type="System.Drawing.Point, System.Drawing">
+    <value>530, 38</value>
+  </data>
+  <data name="gb_buttonindicator.Size" type="System.Drawing.Size, System.Drawing">
+    <value>185, 320</value>
+  </data>
+  <data name="gb_buttonindicator.TabIndex" type="System.Int32, mscorlib">
+    <value>43</value>
+  </data>
+  <data name="gb_buttonindicator.Text" xml:space="preserve">
+    <value>Mouse Clicks</value>
+  </data>
+  <data name="&gt;&gt;gb_buttonindicator.Name" xml:space="preserve">
+    <value>gb_buttonindicator</value>
+  </data>
+  <data name="&gt;&gt;gb_buttonindicator.Type" xml:space="preserve">
+    <value>System.Windows.Forms.GroupBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;gb_buttonindicator.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;gb_buttonindicator.ZOrder" xml:space="preserve">
+    <value>4</value>
+  </data>
   <data name="button_exit.Location" type="System.Drawing.Point, System.Drawing">
     <value>345, 435</value>
   </data>
@@ -2427,6 +2199,15 @@
   <data name="&gt;&gt;cmb_language.ZOrder" xml:space="preserve">
     <value>0</value>
   </data>
+  <metadata name="picker_bi_clickcolor.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
+    <value>679, 17</value>
+  </metadata>
+  <metadata name="picker_bi_wclickcolor.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
+    <value>805, 17</value>
+  </metadata>
+  <metadata name="picker_bi_wheelcolor.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
+    <value>931, 17</value>
+  </metadata>
   <metadata name="$this.Localizable" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
     <value>True</value>
   </metadata>
@@ -2999,6 +2780,24 @@
     <value>picker_ci_color</value>
   </data>
   <data name="&gt;&gt;picker_ci_color.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ColorDialog, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;picker_bi_clickcolor.Name" xml:space="preserve">
+    <value>picker_bi_clickcolor</value>
+  </data>
+  <data name="&gt;&gt;picker_bi_clickcolor.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ColorDialog, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;picker_bi_wclickcolor.Name" xml:space="preserve">
+    <value>picker_bi_wclickcolor</value>
+  </data>
+  <data name="&gt;&gt;picker_bi_wclickcolor.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ColorDialog, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;picker_bi_wheelcolor.Name" xml:space="preserve">
+    <value>picker_bi_wheelcolor</value>
+  </data>
+  <data name="&gt;&gt;picker_bi_wheelcolor.Type" xml:space="preserve">
     <value>System.Windows.Forms.ColorDialog, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </data>
   <data name="&gt;&gt;$this.Name" xml:space="preserve">
