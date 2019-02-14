@@ -42,9 +42,9 @@ namespace PxKeystrokesUi
             ((System.ComponentModel.ISupportInitialize)(this.pb_left_double)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pb_right_double)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pb_middle)).BeginInit();
+            this.panel_mouse.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.pb_wheel_down)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pb_wheel_up)).BeginInit();
-            this.panel_mouse.SuspendLayout();
             this.SuspendLayout();
             // 
             // pb_left
@@ -116,6 +116,24 @@ namespace PxKeystrokesUi
             this.pb_middle.TabStop = false;
             this.pb_middle.Visible = false;
             // 
+            // panel_mouse
+            // 
+            this.panel_mouse.AutoSize = true;
+            this.panel_mouse.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("panel_mouse.BackgroundImage")));
+            this.panel_mouse.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Zoom;
+            this.panel_mouse.Controls.Add(this.pb_wheel_down);
+            this.panel_mouse.Controls.Add(this.pb_wheel_up);
+            this.panel_mouse.Controls.Add(this.pb_right_double);
+            this.panel_mouse.Controls.Add(this.pb_right);
+            this.panel_mouse.Controls.Add(this.pb_middle);
+            this.panel_mouse.Controls.Add(this.pb_left_double);
+            this.panel_mouse.Controls.Add(this.pb_left);
+            this.panel_mouse.Location = new System.Drawing.Point(0, 0);
+            this.panel_mouse.Margin = new System.Windows.Forms.Padding(0);
+            this.panel_mouse.Name = "panel_mouse";
+            this.panel_mouse.Size = new System.Drawing.Size(73, 80);
+            this.panel_mouse.TabIndex = 7;
+            // 
             // pb_wheel_down
             // 
             this.pb_wheel_down.BackColor = System.Drawing.Color.Transparent;
@@ -142,24 +160,6 @@ namespace PxKeystrokesUi
             this.pb_wheel_up.TabStop = false;
             this.pb_wheel_up.Visible = false;
             // 
-            // panel_mouse
-            // 
-            this.panel_mouse.AutoSize = true;
-            this.panel_mouse.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("panel_mouse.BackgroundImage")));
-            this.panel_mouse.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Zoom;
-            this.panel_mouse.Controls.Add(this.pb_wheel_down);
-            this.panel_mouse.Controls.Add(this.pb_wheel_up);
-            this.panel_mouse.Controls.Add(this.pb_right_double);
-            this.panel_mouse.Controls.Add(this.pb_right);
-            this.panel_mouse.Controls.Add(this.pb_middle);
-            this.panel_mouse.Controls.Add(this.pb_left_double);
-            this.panel_mouse.Controls.Add(this.pb_left);
-            this.panel_mouse.Location = new System.Drawing.Point(0, 0);
-            this.panel_mouse.Margin = new System.Windows.Forms.Padding(0);
-            this.panel_mouse.Name = "panel_mouse";
-            this.panel_mouse.Size = new System.Drawing.Size(73, 80);
-            this.panel_mouse.TabIndex = 7;
-            // 
             // ButtonIndicator
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 12F);
@@ -178,9 +178,9 @@ namespace PxKeystrokesUi
             ((System.ComponentModel.ISupportInitialize)(this.pb_left_double)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.pb_right_double)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.pb_middle)).EndInit();
+            this.panel_mouse.ResumeLayout(false);
             ((System.ComponentModel.ISupportInitialize)(this.pb_wheel_down)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.pb_wheel_up)).EndInit();
-            this.panel_mouse.ResumeLayout(false);
             this.ResumeLayout(false);
             this.PerformLayout();
 
